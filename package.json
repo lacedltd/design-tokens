@@ -1,5 +1,5 @@
 {
-  "name": "figma-tokens",
+  "name": "design-tokens",
   "version": "1.0.0",
   "scripts": {
     "sd": "node style-dictionary",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hongkiulam/figma-tokens.git"
+    "url": "git+https://github.com/lacedltd/design-tokens.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hongkiulam/figma-tokens/issues"
+    "url": "https://github.com/lacedltd/design-tokens/issues"
   },
-  "homepage": "https://github.com/hongkiulam/figma-tokens#readme",
+  "homepage": "https://github.com/lacedltd/design-tokens#readme",
   "devDependencies": {
     "style-dictionary": "latest",
     "token-transformer": "latest"
