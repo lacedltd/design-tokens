@@ -961,7 +961,7 @@
     "xl": {
       "value": 1366,
       "type": "sizing",
-      "description": ">=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)s"
+      "description": ">=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)"
     },
     "md": {
       "value": 1024,
