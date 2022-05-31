@@ -110,7 +110,7 @@ StyleDictionary.registerTransformGroup({
     "color/css",
     // custom transforms
     "numberToPx",
-    // "flattenShadow",
+    "flattenShadow",
     "fontweightsToNumber",
     "letterSpacingPercentageToEM",
     "descriptionToComment",
@@ -129,7 +129,7 @@ StyleDictionary.registerTransformGroup({
     "color/css",
     // custom transforms
     "numberToPx",
-    // "flattenShadow",
+    "flattenShadow",
     "fontweightsToNumber",
     "letterSpacingPercentageToEM",
     "descriptionToComment",
