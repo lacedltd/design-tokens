@@ -42,19 +42,19 @@ StyleDictionary.registerTransform({
   transformer: (token) => `${token.value}px`,
 });
 
-StyleDictionary.registerTransform({
-  name: "flattenShadow",
-  type: "value",
-  matcher: (token) => token.type === "boxShadow",
-  transformer: (token) => {
-    const { x, y, blur, spread, color, type } = token.value;
-    let newValue = `${x}px ${y}px ${blur}px ${spread}px ${color}`;
-    if (type !== "dropShadow") {
-      newValue += " inset";
-    }
-    return newValue;
-  },
-});
+// StyleDictionary.registerTransform({
+//   name: "flattenShadow",
+//   type: "value",
+//   matcher: (token) => token.type === "boxShadow",
+//   transformer: (token) => {
+//     const { x, y, blur, spread, color, type } = token.value;
+//     let newValue = `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+//     if (type !== "dropShadow") {
+//       newValue += " inset";
+//     }
+//     return newValue;
+//   },
+// });
 
 const fontWeightMapping = {
   Thin: 100,
@@ -110,7 +110,7 @@ StyleDictionary.registerTransformGroup({
     "color/css",
     // custom transforms
     "numberToPx",
-    "flattenShadow",
+    // "flattenShadow",
     "fontweightsToNumber",
     "letterSpacingPercentageToEM",
     "descriptionToComment",
@@ -129,7 +129,7 @@ StyleDictionary.registerTransformGroup({
     "color/css",
     // custom transforms
     "numberToPx",
-    "flattenShadow",
+    // "flattenShadow",
     "fontweightsToNumber",
     "letterSpacingPercentageToEM",
     "descriptionToComment",
