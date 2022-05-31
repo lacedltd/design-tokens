@@ -106,6 +106,14 @@ StyleDictionary.registerTransform({
   transformer: (token) => (token.comment = token.description),
 });
 
+const customTransforms = [
+  "numberToPx",
+  "flattenShadow",
+  "fontweightsToNumber",
+  "letterSpacingPercentageToEM",
+  "descriptionToComment",
+]
+
 // Transform Groups
 
 StyleDictionary.registerTransformGroup({
@@ -119,11 +127,7 @@ StyleDictionary.registerTransformGroup({
     "size/rem",
     "color/css",
     // custom transforms
-    "numberToPx",
-    "flattenShadow",
-    "fontweightsToNumber",
-    "letterSpacingPercentageToEM",
-    "descriptionToComment",
+    ...customTransforms,
   ],
 });
 
@@ -138,12 +142,19 @@ StyleDictionary.registerTransformGroup({
     "size/rem",
     "color/css",
     // custom transforms
-    "numberToPx",
-    "flattenShadow",
-    "fontweightsToNumber",
-    "letterSpacingPercentageToEM",
-    "descriptionToComment",
+    ...customTransforms
   ],
 });
+
+StyleDictionary.registerTransformGroup({
+  name: "js",
+  transforms: [
+    "attribute/cti",
+    "name/cti/pascal",
+    "size/rem",
+    "color/hex",
+    ...customTransforms
+  ]
+})
 
 StyleDictionary.buildAllPlatforms();
