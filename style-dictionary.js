@@ -23,6 +23,16 @@ const StyleDictionary = require("style-dictionary").extend({
         },
       ],
     },
+    js: {
+      transformGroup: "js",
+      files: [
+        {
+          destination: "dist/variables.js",
+          format: "javascript/module",
+          options: { showFileHeader: false },
+        }
+      ]
+    }
   },
 });
 
