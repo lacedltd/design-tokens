@@ -28,7 +28,7 @@ const StyleDictionary = require("style-dictionary").extend({
       files: [
         {
           destination: "dist/variables.js",
-          format: "javascript/module",
+          format: "javascript/es6",
           options: { showFileHeader: false },
         }
       ]
