@@ -1,6 +1,6 @@
 {
   "name": "@lacedltd/design-tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "sd": "node style-dictionary",
     "tt": "token-transformer tokens.json style-dictionary.json",
