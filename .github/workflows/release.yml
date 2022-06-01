@@ -30,8 +30,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@lacedltd'
-      - run: echo $SEMVER
       - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
       - run: npm run package
-      - run: npm publish --dry-run $(ls *.tgz)
-      - run: if [ "$SEMVER" != "prerelease" ]; then git push; fi
+      - run: npm publish $(ls *.tgz)
+      - run: if [ "$SEMVER" != "prerelease" ]; then git push; else echo "no git push because prerelease"; fi
