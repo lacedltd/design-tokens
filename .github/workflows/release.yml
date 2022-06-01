@@ -33,4 +33,9 @@ jobs:
       - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
       - run: npm run package
       - run: npm publish $(ls *.tgz)
-      - run: if [ "$SEMVER" != "prerelease" ]; then git push; else echo "no git push because prerelease"; fi
+      - name: Push changes
+        if: $SEMVER != "prerelease"
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
