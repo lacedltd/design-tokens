@@ -27,9 +27,11 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@lacedltd'
-      - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID
+      - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
       - run: npm run package
       - run: npm publish $(ls *.tgz)
-      - name: Push changes
+      - name: Commit package.json version
         if: ${{ env.SEMVER != 'prerelease' }}
-        run: git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[auto-commit] Release - update package.json version"
