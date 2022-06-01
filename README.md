@@ -42,3 +42,21 @@ npm run build
 This is configured to generate CSS variables, CSS custom media queries and SCSS variables in `dist`.
 
 This script is also used by the Github Action so to make changes to the CI, simply change this file
+
+### Release
+
+The assets in `dist` are published to Github Packages npm registry and is done entirely through Github Actions.
+
+To create a new release:
+0. Make sure the build workflow has finished first!
+1. Goto the `Actions` tab
+2. Choose the `Release` workflow on the left sidebar
+3. Click the `Run workflow` button on the right
+4. Select the `design` branch and select the desired Semantic Version for the release
+5. Click `Run workflow`!
+
+### Usage
+
+`npm install @lacedltd/design-tokens`
+
+TODO document npm registry authentication
