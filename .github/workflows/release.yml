@@ -1,0 +1,37 @@
+name: Release
+on: 
+  workflow_dispatch:
+    inputs:
+      semver:
+        description: 'Semantic Version Bump'     
+        required: true
+        default: 'minor' 
+        type: choice
+        options:
+        - patch
+        - minor
+        - major
+        - prerelease
+
+jobs:
+  publish:
+    permissions: 
+      contents: read
+      packages: write 
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@lacedltd'
+
+      - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
+      - run: npm run package
+      - run: npm publish $(ls *.tgz)
+      - run: if [ "$SEMVER" != "prerelease" ]; then git push;fi
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          SEMVER: ${{ github.event.inputs.semver }}

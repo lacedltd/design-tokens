@@ -1,10 +1,11 @@
 {
-  "name": "design-tokens",
-  "version": "1.0.0",
+  "name": "@lacedltd/design-tokens",
+  "version": "0.0.0",
   "scripts": {
     "sd": "node style-dictionary",
     "tt": "token-transformer tokens.json style-dictionary.json",
-    "build": "npm run tt && npm run sd && node utils/createCustomMedia"
+    "build": "npm run tt && npm run sd && node utils/createCustomMedia",
+    "package": "./utils/package.sh"
   },
   "repository": {
     "type": "git",
