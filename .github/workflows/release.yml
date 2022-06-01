@@ -15,6 +15,9 @@ on:
 
 jobs:
   publish:
+    env:
+      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      SEMVER: ${{ github.event.inputs.semver }}
     permissions: 
       contents: read
       packages: write 
@@ -31,7 +34,4 @@ jobs:
       - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
       - run: npm run package
       - run: npm publish --dry-run $(ls *.tgz)
-      - run: if [ "$SEMVER" != "prerelease" ]; then git push;fi
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          SEMVER: ${{ github.event.inputs.semver }}
+      - run: if [ "$SEMVER" != "prerelease" ]; then git push; fi
