@@ -5,7 +5,7 @@ on:
       semver:
         description: 'Semantic Version Bump'     
         required: true
-        default: 'minor' 
+        default: 'prerelease' 
         type: choice
         options:
         - patch
@@ -27,10 +27,10 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@lacedltd'
-
+      - run: echo $SEMVER
       - run: npm version $SEMVER --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
       - run: npm run package
-      - run: npm publish $(ls *.tgz)
+      - run: npm publish --dry-run $(ls *.tgz)
       - run: if [ "$SEMVER" != "prerelease" ]; then git push;fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
