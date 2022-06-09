@@ -1,4 +1,4 @@
-export const Primary1 = "#101010";
+export const Primary1 = "#101011";
 export const Primary2 = "#ffffff";
 export const PrimaryAccent = "#1bc49f"; // Jade
 export const Secondary1 = "#dcf9f6"; // Jade light
