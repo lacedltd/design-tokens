@@ -32,6 +32,11 @@ module.exports = (source, destinationDir) => {
             format: "javascript/es6",
             options: { showFileHeader: false },
           },
+          {
+            format: "typescript/es6-declarations",
+            destination: `${destinationDir}/variables.d.ts`,
+            options: { showFileHeader: false },
+          },
         ],
       },
     },
