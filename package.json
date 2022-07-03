@@ -1,6 +1,6 @@
 {
   "name": "@lacedltd/design-tokens",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "scripts": {
     "prebuild": "rm -rf ./dist/* && rm -rf ./style-dictionary/*",
     "build": "node utils/build.js",
