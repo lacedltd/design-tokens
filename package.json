@@ -6,7 +6,7 @@
     "build": "node utils/build.js",
     "package": "./utils/package.sh"
   },
-  "main": "variables.js",
+  "main": "tokens.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lacedltd/design-tokens.git"
