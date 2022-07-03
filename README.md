@@ -2,7 +2,7 @@
 
 This repo contains the design tokens created in [Figma](https://docs.tokens.studio) which are transformed to CSS & SCSS with token-transformer and [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
 
-Change your tokens in `tokens.json` (either directly or with the Figma Tokens plugin in Figma). The GitHub action will automatically generate style dictionary tokens to `style-dictionary.json` that can then be read by Style Dictionary, which will output tokens to the format you defined in `style-dictionary.js`
+Change your tokens in `tokens.json` (either directly or with the Figma Tokens plugin in Figma). The GitHub action will automatically generate style dictionary tokens to `style-dictionary/*` that can then be read by Style Dictionary, which will output tokens to the format you defined in `utils/style-dictionary.js`
 
 ### Before Making Change...
 
@@ -15,8 +15,6 @@ npm install
 ```
 
 ### Utils
-
-Added util which runs in Github Action that purges the jsDelivr Github cache
 
 ### Transformers + Filters (Style Dictionary)
 
