@@ -6,7 +6,7 @@ module.exports = (source, destinationDir) => {
         transformGroup: "css",
         files: [
           {
-            destination: `${destinationDir}/variables.css`,
+            destination: `${destinationDir}/tokens.css`,
             format: "css/variables",
             options: { showFileHeader: false },
             filter: "omitTypography",
@@ -17,7 +17,7 @@ module.exports = (source, destinationDir) => {
         transformGroup: "scss",
         files: [
           {
-            destination: `${destinationDir}/variables.scss`,
+            destination: `${destinationDir}/tokens.scss`,
             format: "scss/variables",
             options: { showFileHeader: false },
             filter: "omitTypography",
@@ -28,13 +28,13 @@ module.exports = (source, destinationDir) => {
         transformGroup: "js",
         files: [
           {
-            destination: `${destinationDir}/variables.js`,
+            destination: `${destinationDir}/tokens.js`,
             format: "javascript/es6",
             options: { showFileHeader: false },
           },
           {
             format: "typescript/es6-declarations",
-            destination: `${destinationDir}/variables.d.ts`,
+            destination: `${destinationDir}/tokens.d.ts`,
             options: { showFileHeader: false },
           },
         ],
