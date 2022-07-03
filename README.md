@@ -14,8 +14,6 @@ Always `git pull` before making changes as it's very likely there are remote cha
 npm install
 ```
 
-### Utils
-
 ### Transformers + Filters (Style Dictionary)
 
 Some custom transformers and filters have been registered to the build process in order to get working CSS
@@ -38,7 +36,7 @@ _Transforms_
 npm run build
 ```
 
-This is configured to generate various CSS, SCSS, Javascript etc... assets in `dist`.
+This will run the Node.js script `utils/build.js` which is configured to generate various CSS, SCSS, Javascript etc... assets in `dist`.
 
 This script is also used by the Github Action so to make changes to the CI, simply change this file
 
@@ -76,3 +74,11 @@ Replacing ACCESS_TOKEN with the Github access token found in the password manage
 Then, install:
 
 `npm install @lacedltd/design-tokens`
+
+```ts
+// Use tokens in Javascript/ Typescript
+import * as tokens from "@lacedltd/design-tokens";
+
+// import css variables
+import "@lacedltd/design-tokens/tokens.css";
+```
