@@ -1,0 +1,80 @@
+$primary-1: #101010;
+$primary-2: #ffffff;
+$primary-accent: #c74848;
+$secondary-1: #dcf9f6; // Jade light
+$secondary-2: #0d3499; // Blue
+$secondary-3: #ced4e3; // Blue light
+$secondary-4: #ff2121; // Red
+$secondary-5: #fed7d7; // Red Light
+$secondary-6: #ff6336; // Orange
+$secondary-7: #fde5dd; // Orange Light
+$secondary-8: #ffe563; // Yellow
+$secondary-9: #fef4c3; // Yellow Light
+$grey-0: #767676; // Accessible grey over white. Main use on text
+$grey-1: #959595; // Laced grey
+$grey-2: #d0d0d0; // Grey Light
+$grey-3: #ededed; // Silver
+$grey-4: #f8f8f8; // Silver Light
+$semantic-critical: #dd3100;
+$semantic-negative: #b90000;
+$semantic-positive: #006b52;
+$interaction-1: #000000;
+$interaction-2: #158c70;
+$interaction-3: #97E2D0;
+$shadow-card: 10px 10px 30px 0px #0000001a;
+$shadow-chip: 0px 2px 10px 0px #10101030;
+$font-families-body: Helvetica;
+$font-families-heading: Segoe UI;
+$line-heights-0: 150%;
+$line-heights-1: 130%;
+$line-heights-2: 120%;
+$font-weights-regular: 400;
+$font-weights-bold: 700;
+$font-weights-light: 300;
+$font-size-0: 12px;
+$font-size-1: 14px;
+$font-size-2: 16px;
+$font-size-3: 18px;
+$font-size-4: 20px;
+$font-size-5: 24px;
+$font-size-6: 32px;
+$font-size-7: 40px;
+$font-size-8: 48px;
+$letter-spacing-0: 0em;
+$letter-spacing-1: 0.2em;
+$paragraph-spacing-0: 0px;
+$paragraph-spacing-1: 8px;
+$text-case-none: none;
+$text-case-uppercase: uppercase;
+$text-decoration-none: none;
+$text-decoration-underline: underline;
+$breakpoints-xl: 1366px; // >=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)
+$breakpoints-md: 1024px; // >=1024: Small desktop and tablet landscape
+$breakpoints-ms: 768px; // >=768px: tablet portrait
+$breakpoints-sm: 375px; // Mobile portrait
+$border-radius-s: 2px;
+$border-radius-none: 0px;
+$space-0: 4px; // 4px
+$space-2: 16px; // 16px
+$space-3: 24px; // 24px
+$space-4: 32px; // 32px
+$space-5: 40px; // 40px
+$space-6: 48px; // 48px
+$space-7: 56px; // 56px
+$space-8: 64px; // 64px
+$space-9: 72px; // 72px
+$space-10: 80px; // 80px
+$space-base: 8px; // 8px
+$border-width-1: 1px; // 1px
+$border-width-2: 2px; // 2px
+$opacity-20: 0.2; // 20%
+$opacity-30: 0.3; // 30%
+$opacity-40: 0.4; // 40%
+$opacity-50: 0.5; // 50%
+$opacity-60: 0.6; // 60%
+$opacity-70: 0.7; // 70%
+$opacity-80: 0.8; // 80%
+$opacity-85: 0.85; // 85%
+$opacity-90: 0.9; // 90%
+$opacity-95: 0.95; // 95%
+$opacity-base: 0.1; // 10%
