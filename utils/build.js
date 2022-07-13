@@ -3,6 +3,7 @@ const processStyleDictionary = require("./style-dictionary");
 
 const config = [
   { outputDir: "dist", tokenSetIncludes: ["global"] },
+  { outputDir: 'dist/rebrand', tokenSetIncludes: ["global", "rebrand"] }
 ];
 
 config.forEach((c) => {
