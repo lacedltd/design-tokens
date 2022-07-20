@@ -101,6 +101,7 @@ export const Space8 = "64px"; // 64px
 export const Space9 = "72px"; // 72px
 export const Space10 = "80px"; // 80px
 export const SpaceBase = "8px"; // 8px
+export const SpaceNestedtokenTest = "123px";
 export const BorderWidth1 = "1px"; // 1px
 export const BorderWidth2 = "2px"; // 2px
 export const Opacity20 = 0.2; // 20%
