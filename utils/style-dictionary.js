@@ -1,3 +1,5 @@
+const merge = require('lodash.merge');
+
 module.exports = (source, destinationDir) => {
   const StyleDictionary = require("style-dictionary").extend({
     source: [source],
@@ -29,7 +31,7 @@ module.exports = (source, destinationDir) => {
         files: [
           {
             destination: `${destinationDir}/tokens.js`,
-            format: "javascript/es6",
+            format: "customJS", // javascript/es6
             options: { showFileHeader: false },
           },
           {
@@ -41,6 +43,21 @@ module.exports = (source, destinationDir) => {
       },
     },
   });
+
+  // Custom Formats
+
+  StyleDictionary.registerFormat({
+    name: "customJS",
+    formatter: ({dictionary}) => {
+      const tokens = {}
+      dictionary.allTokens.forEach((token) => {
+        const path = token.path.reverse().reduce((a, b) => ({[b]: a}), token.value);
+        tokens[token.type] ??= {}
+        merge(tokens[token.type], path)
+      })
+      return JSON.stringify(tokens, null, 2);
+    }
+  })
 
   // Custom Filters
 

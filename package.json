@@ -21,5 +21,8 @@
   "devDependencies": {
     "style-dictionary": "latest",
     "token-transformer": "latest"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
   }
 }
