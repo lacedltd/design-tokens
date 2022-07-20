@@ -79,4 +79,5 @@
   --opacity-90: 0.9; /* 90% */
   --opacity-95: 0.95; /* 95% */
   --opacity-base: 0.1; /* 10% */
+  --testtoken: 123px;
 }

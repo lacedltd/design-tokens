@@ -114,3 +114,4 @@ export const Opacity85 : number; // 85%
 export const Opacity90 : number; // 90%
 export const Opacity95 : number; // 95%
 export const OpacityBase : number; // 10%
+export const Testtoken : string;

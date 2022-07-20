@@ -1114,5 +1114,9 @@
       "type": "opacity",
       "description": "10%"
     }
+  },
+  "testtoken": {
+    "value": 123,
+    "type": "spacing"
   }
 }

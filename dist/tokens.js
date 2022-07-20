@@ -114,3 +114,4 @@ export const Opacity85 = 0.85; // 85%
 export const Opacity90 = 0.9; // 90%
 export const Opacity95 = 0.95; // 95%
 export const OpacityBase = 0.1; // 10%
+export const Testtoken = "123px";
