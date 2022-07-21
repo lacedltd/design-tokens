@@ -1,5 +1,3 @@
-const merge = require('lodash.merge');
-
 module.exports = (source, destinationDir) => {
   const StyleDictionary = require("style-dictionary").extend({
     source: [source],
