@@ -23,7 +23,6 @@
     "token-transformer": "latest"
   },
   "dependencies": {
-    "json-to-ts": "^1.7.0",
-    "lodash.merge": "^4.6.2"
+    "json-to-ts": "^1.7.0"
   }
 }

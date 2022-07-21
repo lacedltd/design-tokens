@@ -1,5 +1,3 @@
-const merge = require('lodash.merge');
-
 module.exports = (source, destinationDir) => {
   const StyleDictionary = require("style-dictionary").extend({
     source: [source],
@@ -142,7 +140,7 @@ module.exports = (source, destinationDir) => {
   StyleDictionary.registerTransformGroup({
     name: "css",
     transforms: [
-      // based on .
+      // based on https://amzn.github.io/style-dictionary/#/transform_groups?id=css
       "attribute/cti",
       "name/cti/kebab",
       "time/seconds",
