@@ -1043,12 +1043,6 @@
       "value": 8,
       "type": "spacing",
       "description": "8px"
-    },
-    "nestedtoken": {
-      "test": {
-        "value": 123,
-        "type": "spacing"
-      }
     }
   },
   "borderWidth": {
@@ -1119,9 +1113,5 @@
       "type": "opacity",
       "description": "10%"
     }
-  },
-  "testtoken": {
-    "value": 123,
-    "type": "spacing"
   }
 }
