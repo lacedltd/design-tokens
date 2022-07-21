@@ -36,7 +36,7 @@ module.exports = (source, destinationDir) => {
           },
           {
             destination: `${destinationDir}/tokens.d.ts`,
-            format: "typescript/module-declarations",
+            format: "typescript/accurate-module-declarations",
             options: { showFileHeader: false },
           },
         ],
@@ -46,50 +46,17 @@ module.exports = (source, destinationDir) => {
 
   // Custom Formats
 
+  const JsonToTS = require("json-to-ts");
   StyleDictionary.registerFormat({
-    name: "customJS",
-    formatter: ({dictionary}) => {
-      const tokens = {}
-      dictionary.allTokens.forEach((token) => {
-        const path = token.path.reverse().reduce((a, b) => ({[b]: a}), token.value);
-        tokens[token.type] ??= {}
-        merge(tokens[token.type], path)
-      })
-      return `export default ` + JSON.stringify(tokens, null, 2);
-    }
-  })
-
-  StyleDictionary.registerFormat({
-    name: "customTS",
-    formatter: ({dictionary}) => {
-      const tokens = {}
-      dictionary.allTokens.forEach((token) => {
-        const path = token.path.reverse().reduce((a, b) => ({[b]: a}), token.value);
-        tokens[token.type] ??= {}
-        merge(tokens[token.type], path)
-      })
-      return `export default ` + JSON.stringify(dictionary.allTokens, null, 2);
-    }
-  })
-
-  StyleDictionary.registerFormat({
-    name: "customCSS",
-    formatter: ({dictionary}) => {
-      const variables = dictionary.allTokens.map(token => {
-        return `  --${token.type}-${token.name}: ${token.value};`
-      }).join(`\n`)
-      return `:root {\n` + variables + `\n}\n`
-    }
-  })
-
-  StyleDictionary.registerFormat({
-    name: "customSCSS",
-    formatter: ({dictionary}) => {
-      return dictionary.allTokens.map(token => {
-        return `$${token.type}-${token.name}: ${token.value};${token.description ? `  // ${token.description}` : ''}`
-      }).join(`\n`)
-    }
-  })
+    name: "typescript/accurate-module-declarations",
+    formatter: function ({ dictionary }) {
+      return (
+        "declare const root: RootObject\n" +
+        "export default root\n" +
+        JsonToTS(dictionary.properties).join("\n")
+      );
+    },
+  });
 
   // Custom Filters
 
