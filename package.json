@@ -19,10 +19,8 @@
   },
   "homepage": "https://github.com/lacedltd/design-tokens#readme",
   "devDependencies": {
+    "json-to-ts": "^1.7.0",
     "style-dictionary": "latest",
     "token-transformer": "latest"
-  },
-  "dependencies": {
-    "json-to-ts": "^1.7.0"
   }
 }
