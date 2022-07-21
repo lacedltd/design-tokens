@@ -31,12 +31,12 @@ module.exports = (source, destinationDir) => {
         files: [
           {
             destination: `${destinationDir}/tokens.js`,
-            format: "customJS", // javascript/es6
+            format: "javascript/module",
             options: { showFileHeader: false },
           },
           {
-            format: "typescript/es6-declarations",
             destination: `${destinationDir}/tokens.d.ts`,
+            format: "typescript/module-declarations",
             options: { showFileHeader: false },
           },
         ],
@@ -55,7 +55,39 @@ module.exports = (source, destinationDir) => {
         tokens[token.type] ??= {}
         merge(tokens[token.type], path)
       })
-      return JSON.stringify(tokens, null, 2);
+      return `export default ` + JSON.stringify(tokens, null, 2);
+    }
+  })
+
+  StyleDictionary.registerFormat({
+    name: "customTS",
+    formatter: ({dictionary}) => {
+      const tokens = {}
+      dictionary.allTokens.forEach((token) => {
+        const path = token.path.reverse().reduce((a, b) => ({[b]: a}), token.value);
+        tokens[token.type] ??= {}
+        merge(tokens[token.type], path)
+      })
+      return `export default ` + JSON.stringify(dictionary.allTokens, null, 2);
+    }
+  })
+
+  StyleDictionary.registerFormat({
+    name: "customCSS",
+    formatter: ({dictionary}) => {
+      const variables = dictionary.allTokens.map(token => {
+        return `  --${token.type}-${token.name}: ${token.value};`
+      }).join(`\n`)
+      return `:root {\n` + variables + `\n}\n`
+    }
+  })
+
+  StyleDictionary.registerFormat({
+    name: "customSCSS",
+    formatter: ({dictionary}) => {
+      return dictionary.allTokens.map(token => {
+        return `$${token.type}-${token.name}: ${token.value};${token.description ? `  // ${token.description}` : ''}`
+      }).join(`\n`)
     }
   })
 
@@ -143,7 +175,7 @@ module.exports = (source, destinationDir) => {
   StyleDictionary.registerTransformGroup({
     name: "css",
     transforms: [
-      // based on https://amzn.github.io/style-dictionary/#/transform_groups?id=css
+      // based on .
       "attribute/cti",
       "name/cti/kebab",
       "time/seconds",
