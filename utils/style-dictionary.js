@@ -29,16 +29,30 @@ module.exports = (source, destinationDir) => {
         files: [
           {
             destination: `${destinationDir}/tokens.js`,
-            format: "javascript/es6",
+            format: "javascript/module",
             options: { showFileHeader: false },
           },
           {
-            format: "typescript/es6-declarations",
             destination: `${destinationDir}/tokens.d.ts`,
+            format: "typescript/accurate-module-declarations",
             options: { showFileHeader: false },
           },
         ],
       },
+    },
+  });
+
+  // Custom Formats
+
+  const JsonToTS = require("json-to-ts");
+  StyleDictionary.registerFormat({
+    name: "typescript/accurate-module-declarations",
+    formatter: function ({ dictionary }) {
+      return (
+        "declare const root: RootObject\n" +
+        "export default root\n" +
+        JsonToTS(dictionary.properties).join("\n")
+      );
     },
   });
 
