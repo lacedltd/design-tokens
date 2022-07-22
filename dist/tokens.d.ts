@@ -32,20 +32,6 @@ interface RootObject {
   space: Space;
   borderWidth: BorderWidth;
   opacity: Opacity;
-  testtoken: Testtoken;
-}
-interface Testtoken {
-  value: string;
-  type: string;
-  filePath: string;
-  isSource: boolean;
-  original: Original4;
-  name: string;
-  attributes: Attributes15;
-  path: string[];
-}
-interface Attributes15 {
-  category: string;
 }
 interface Opacity {
   '20': _20;
@@ -88,25 +74,6 @@ interface Space {
   '9': _2;
   '10': _2;
   base: _03;
-  nestedtoken: Nestedtoken;
-}
-interface Nestedtoken {
-  test: Test;
-}
-interface Test {
-  value: string;
-  type: string;
-  filePath: string;
-  isSource: boolean;
-  original: Original4;
-  name: string;
-  attributes: Attributes14;
-  path: string[];
-}
-interface Attributes14 {
-  category: string;
-  type: string;
-  item: string;
 }
 interface _2 {
   value: string;

@@ -3624,29 +3624,6 @@ module.exports = {
         "base"
       ],
       "comment": "8px"
-    },
-    "nestedtoken": {
-      "test": {
-        "value": "123px",
-        "type": "spacing",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true,
-        "original": {
-          "value": 123,
-          "type": "spacing"
-        },
-        "name": "SpaceNestedtokenTest",
-        "attributes": {
-          "category": "space",
-          "type": "nestedtoken",
-          "item": "test"
-        },
-        "path": [
-          "space",
-          "nestedtoken",
-          "test"
-        ]
-      }
     }
   },
   "borderWidth": {
@@ -3977,22 +3954,5 @@ module.exports = {
       ],
       "comment": "10%"
     }
-  },
-  "testtoken": {
-    "value": "123px",
-    "type": "spacing",
-    "filePath": "style-dictionary/global-rebrand.json",
-    "isSource": true,
-    "original": {
-      "value": 123,
-      "type": "spacing"
-    },
-    "name": "Testtoken",
-    "attributes": {
-      "category": "testtoken"
-    },
-    "path": [
-      "testtoken"
-    ]
   }
 };
