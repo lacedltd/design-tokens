@@ -318,6 +318,10 @@
     "xs": {
       "value": 12,
       "type": "fontSizes"
+    },
+    "display": {
+      "value": 56,
+      "type": "fontSizes"
     }
   },
   "textCase": {
@@ -335,10 +339,6 @@
       "type": "textCase",
       "description": "e.g.: Sneaker Marketplace"
     }
-  },
-  "Display": {
-    "value": 56,
-    "type": "fontSizes"
   },
   "textDecoration": {
     "underline": {

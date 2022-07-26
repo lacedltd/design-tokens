@@ -1534,6 +1534,25 @@ module.exports = {
         "fontSizes",
         "xs"
       ]
+    },
+    "display": {
+      "value": "56px",
+      "type": "fontSizes",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 56,
+        "type": "fontSizes"
+      },
+      "name": "FontSizesDisplay",
+      "attributes": {
+        "category": "fontSizes",
+        "type": "display"
+      },
+      "path": [
+        "fontSizes",
+        "display"
+      ]
     }
   },
   "textCase": {
@@ -1650,23 +1669,6 @@ module.exports = {
       ],
       "comment": "e.g.: Sneaker Marketplace"
     }
-  },
-  "Display": {
-    "value": "56px",
-    "type": "fontSizes",
-    "filePath": "style-dictionary/global-rebrand.json",
-    "isSource": true,
-    "original": {
-      "value": 56,
-      "type": "fontSizes"
-    },
-    "name": "Display",
-    "attributes": {
-      "category": "Display"
-    },
-    "path": [
-      "Display"
-    ]
   },
   "textDecoration": {
     "underline": {

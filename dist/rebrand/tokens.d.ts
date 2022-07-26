@@ -14,25 +14,11 @@ interface RootObject {
   fontWeights: FontWeights;
   fontSizes: FontSizes;
   textCase: TextCase;
-  Display: Display;
   textDecoration: TextDecoration;
 }
 interface TextDecoration {
   underline: P1;
   none: P1;
-}
-interface Display {
-  value: string;
-  type: string;
-  filePath: string;
-  isSource: boolean;
-  original: Original;
-  name: string;
-  attributes: Attributes13;
-  path: string[];
-}
-interface Attributes13 {
-  category: string;
 }
 interface TextCase {
   uppercase: P1;
@@ -90,6 +76,7 @@ interface FontSizes {
   body: Scale;
   sm: Scale;
   xs: Scale;
+  display: Scale;
 }
 interface FontWeights {
   headingRegular: HeadingRegular;
