@@ -15,6 +15,34 @@ interface RootObject {
   fontSizes: FontSizes;
   textCase: TextCase;
   textDecoration: TextDecoration;
+  typography: Typography;
+}
+interface Typography {
+  display: Display;
+}
+interface Display {
+  value: Value;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original5;
+  name: string;
+  attributes: Attributes;
+  path: string[];
+}
+interface Original5 {
+  value: Value;
+  type: string;
+}
+interface Value {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: number;
+  letterSpacing: number;
+  paragraphSpacing: number;
+  textDecoration: string;
+  textCase: string;
 }
 interface TextDecoration {
   underline: P1;

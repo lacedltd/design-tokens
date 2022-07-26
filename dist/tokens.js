@@ -1709,5 +1709,44 @@ module.exports = {
         "none"
       ]
     }
+  },
+  "typography": {
+    "display": {
+      "value": {
+        "fontFamily": "Segoe UI",
+        "fontWeight": "Bold",
+        "lineHeight": "120%",
+        "fontSize": 56,
+        "letterSpacing": 0,
+        "paragraphSpacing": 32,
+        "textDecoration": "none",
+        "textCase": "capitalize"
+      },
+      "type": "typography",
+      "filePath": "style-dictionary/global.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 56,
+          "letterSpacing": 0,
+          "paragraphSpacing": 32,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyDisplay",
+      "attributes": {
+        "category": "typography",
+        "type": "display"
+      },
+      "path": [
+        "typography",
+        "display"
+      ]
+    }
   }
 };
