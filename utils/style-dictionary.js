@@ -11,11 +11,6 @@ module.exports = (source, destinationDir) => {
             options: { showFileHeader: false },
             filter: "omitTypography",
           },
-        ],
-      },
-      scss: {
-        transformGroup: "scss",
-        files: [
           {
             destination: `${destinationDir}/tokens.scss`,
             format: "scss/variables",
@@ -141,21 +136,6 @@ module.exports = (source, destinationDir) => {
     name: "css",
     transforms: [
       // based on https://amzn.github.io/style-dictionary/#/transform_groups?id=css
-      "attribute/cti",
-      "name/cti/kebab",
-      "time/seconds",
-      "content/icon",
-      "size/rem",
-      "color/css",
-      // custom transforms
-      ...customTransforms,
-    ],
-  });
-
-  StyleDictionary.registerTransformGroup({
-    name: "scss",
-    transforms: [
-      // based on https://amzn.github.io/style-dictionary/#/transform_groups?id=scss
       "attribute/cti",
       "name/cti/kebab",
       "time/seconds",
