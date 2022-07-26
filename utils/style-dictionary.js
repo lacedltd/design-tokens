@@ -2,7 +2,7 @@ module.exports = (source, destinationDir) => {
   const StyleDictionary = require("style-dictionary").extend({
     source: [source],
     platforms: {
-      css: {
+      "web/css": {
         transformGroup: "css",
         files: [
           {
@@ -19,7 +19,7 @@ module.exports = (source, destinationDir) => {
           },
         ],
       },
-      js: {
+      "web/js": {
         transformGroup: "js",
         files: [
           {
