@@ -1,6 +1,340 @@
 module.exports = {
-  "Primary": {
-    "1": {
+  "spacing": {
+    "scale": {
+      "value": "2px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 2,
+        "type": "spacing"
+      },
+      "name": "SpacingScale",
+      "attributes": {
+        "category": "spacing",
+        "type": "scale"
+      },
+      "path": [
+        "spacing",
+        "scale"
+      ]
+    },
+    "xs": {
+      "value": "4px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "name": "SpacingXs",
+      "attributes": {
+        "category": "spacing",
+        "type": "xs"
+      },
+      "path": [
+        "spacing",
+        "xs"
+      ]
+    },
+    "sm": {
+      "value": "8px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "name": "SpacingSm",
+      "attributes": {
+        "category": "spacing",
+        "type": "sm"
+      },
+      "path": [
+        "spacing",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": "16px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "name": "SpacingMd",
+      "attributes": {
+        "category": "spacing",
+        "type": "md"
+      },
+      "path": [
+        "spacing",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "32px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "name": "SpacingLg",
+      "attributes": {
+        "category": "spacing",
+        "type": "lg"
+      },
+      "path": [
+        "spacing",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": "64px",
+      "type": "spacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 64,
+        "type": "spacing"
+      },
+      "name": "SpacingXl",
+      "attributes": {
+        "category": "spacing",
+        "type": "xl"
+      },
+      "path": [
+        "spacing",
+        "xl"
+      ]
+    },
+    "xxl": {
+      "value": "80px",
+      "type": "spacing",
+      "description": "in between sections",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 80,
+        "type": "spacing",
+        "description": "in between sections"
+      },
+      "name": "SpacingXxl",
+      "attributes": {
+        "0": "i",
+        "1": "n",
+        "2": " ",
+        "3": "b",
+        "4": "e",
+        "5": "t",
+        "6": "w",
+        "7": "e",
+        "8": "e",
+        "9": "n",
+        "10": " ",
+        "11": "s",
+        "12": "e",
+        "13": "c",
+        "14": "t",
+        "15": "i",
+        "16": "o",
+        "17": "n",
+        "18": "s",
+        "category": "spacing",
+        "type": "xxl"
+      },
+      "path": [
+        "spacing",
+        "xxl"
+      ],
+      "comment": "in between sections"
+    }
+  },
+  "sizing": {
+    "scale": {
+      "value": "1.5px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 1.5,
+        "type": "sizing"
+      },
+      "name": "SizingScale",
+      "attributes": {
+        "category": "sizing",
+        "type": "scale"
+      },
+      "path": [
+        "sizing",
+        "scale"
+      ]
+    },
+    "xs": {
+      "value": "4px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 4,
+        "type": "sizing"
+      },
+      "name": "SizingXs",
+      "attributes": {
+        "category": "sizing",
+        "type": "xs"
+      },
+      "path": [
+        "sizing",
+        "xs"
+      ]
+    },
+    "sm": {
+      "value": "6px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 6,
+        "type": "sizing"
+      },
+      "name": "SizingSm",
+      "attributes": {
+        "category": "sizing",
+        "type": "sm"
+      },
+      "path": [
+        "sizing",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": "9px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 9,
+        "type": "sizing"
+      },
+      "name": "SizingMd",
+      "attributes": {
+        "category": "sizing",
+        "type": "md"
+      },
+      "path": [
+        "sizing",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "13.5px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 13.5,
+        "type": "sizing"
+      },
+      "name": "SizingLg",
+      "attributes": {
+        "category": "sizing",
+        "type": "lg"
+      },
+      "path": [
+        "sizing",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": "20.25px",
+      "type": "sizing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 20.25,
+        "type": "sizing"
+      },
+      "name": "SizingXl",
+      "attributes": {
+        "category": "sizing",
+        "type": "xl"
+      },
+      "path": [
+        "sizing",
+        "xl"
+      ]
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": "2px",
+      "type": "borderRadius",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 2,
+        "type": "borderRadius"
+      },
+      "name": "BorderRadiusSm",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "sm"
+      },
+      "path": [
+        "borderRadius",
+        "sm"
+      ]
+    }
+  },
+  "borderWidth": {
+    "none": {
+      "value": "0px",
+      "type": "borderWidth",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 0,
+        "type": "borderWidth"
+      },
+      "name": "BorderWidthNone",
+      "attributes": {
+        "category": "borderWidth",
+        "type": "none"
+      },
+      "path": [
+        "borderWidth",
+        "none"
+      ]
+    },
+    "xs": {
+      "value": "1px",
+      "type": "borderWidth",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 1,
+        "type": "borderWidth"
+      },
+      "name": "BorderWidthXs",
+      "attributes": {
+        "category": "borderWidth",
+        "type": "xs"
+      },
+      "path": [
+        "borderWidth",
+        "xs"
+      ]
+    }
+  },
+  "colors": {
+    "P1": {
       "value": "#101010",
       "type": "color",
       "filePath": "style-dictionary/global-rebrand.json",
@@ -9,17 +343,17 @@ module.exports = {
         "value": "#101010",
         "type": "color"
       },
-      "name": "Primary1",
+      "name": "ColorsP1",
       "attributes": {
-        "category": "Primary",
-        "type": "1"
+        "category": "colors",
+        "type": "P1"
       },
       "path": [
-        "Primary",
-        "1"
+        "colors",
+        "P1"
       ]
     },
-    "2": {
+    "P2": {
       "value": "#ffffff",
       "type": "color",
       "filePath": "style-dictionary/global-rebrand.json",
@@ -28,694 +362,713 @@ module.exports = {
         "value": "#ffffff",
         "type": "color"
       },
-      "name": "Primary2",
+      "name": "ColorsP2",
       "attributes": {
-        "category": "Primary",
-        "type": "2"
+        "category": "colors",
+        "type": "P2"
       },
       "path": [
-        "Primary",
-        "2"
+        "colors",
+        "P2"
       ]
     },
-    "accent": {
-      "value": "#c74848",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#c74848",
-        "type": "color"
-      },
-      "name": "PrimaryAccent",
-      "attributes": {
-        "category": "Primary",
-        "type": "accent"
-      },
-      "path": [
-        "Primary",
-        "accent"
-      ]
-    }
-  },
-  "Secondary": {
-    "1": {
-      "value": "#dcf9f6",
-      "type": "color",
-      "description": "Jade light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#dcf9f6",
+    "S1": {
+      "200": {
+        "value": "#DCF9F6",
         "type": "color",
-        "description": "Jade light"
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#DCF9F6",
+          "type": "color"
+        },
+        "name": "ColorsS1200",
+        "attributes": {
+          "category": "colors",
+          "type": "S1",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S1",
+          "200"
+        ]
       },
-      "name": "Secondary1",
-      "attributes": {
-        "0": "J",
-        "1": "a",
-        "2": "d",
-        "3": "e",
-        "4": " ",
-        "5": "l",
-        "6": "i",
-        "7": "g",
-        "8": "h",
-        "9": "t",
-        "category": "Secondary",
-        "type": "1"
+      "500": {
+        "value": "#97E2D0",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#97E2D0",
+          "type": "color"
+        },
+        "name": "ColorsS1500",
+        "attributes": {
+          "category": "colors",
+          "type": "S1",
+          "item": "500"
+        },
+        "path": [
+          "colors",
+          "S1",
+          "500"
+        ]
       },
-      "path": [
-        "Secondary",
-        "1"
-      ],
-      "comment": "Jade light"
+      "900": {
+        "value": "#1BC49F",
+        "type": "color",
+        "description": "Main accent colour",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#1BC49F",
+          "type": "color",
+          "description": "Main accent colour"
+        },
+        "name": "ColorsS1900",
+        "attributes": {
+          "0": "M",
+          "1": "a",
+          "2": "i",
+          "3": "n",
+          "4": " ",
+          "5": "a",
+          "6": "c",
+          "7": "c",
+          "8": "e",
+          "9": "n",
+          "10": "t",
+          "11": " ",
+          "12": "c",
+          "13": "o",
+          "14": "l",
+          "15": "o",
+          "16": "u",
+          "17": "r",
+          "category": "colors",
+          "type": "S1",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S1",
+          "900"
+        ],
+        "comment": "Main accent colour"
+      }
     },
-    "2": {
-      "value": "#0d3499",
-      "type": "color",
-      "description": "Blue",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#0d3499",
+    "Grey": {
+      "100": {
+        "value": "#F8F8F8",
         "type": "color",
-        "description": "Blue"
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8F8F8",
+          "type": "color"
+        },
+        "name": "ColorsGrey100",
+        "attributes": {
+          "category": "colors",
+          "type": "Grey",
+          "item": "100"
+        },
+        "path": [
+          "colors",
+          "Grey",
+          "100"
+        ]
       },
-      "name": "Secondary2",
-      "attributes": {
-        "0": "B",
-        "1": "l",
-        "2": "u",
-        "3": "e",
-        "category": "Secondary",
-        "type": "2"
-      },
-      "path": [
-        "Secondary",
-        "2"
-      ],
-      "comment": "Blue"
-    },
-    "3": {
-      "value": "#ced4e3",
-      "type": "color",
-      "description": "Blue light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#ced4e3",
+      "200": {
+        "value": "#EDEDED",
         "type": "color",
-        "description": "Blue light"
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#EDEDED",
+          "type": "color"
+        },
+        "name": "ColorsGrey200",
+        "attributes": {
+          "category": "colors",
+          "type": "Grey",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "Grey",
+          "200"
+        ]
       },
-      "name": "Secondary3",
-      "attributes": {
-        "0": "B",
-        "1": "l",
-        "2": "u",
-        "3": "e",
-        "4": " ",
-        "5": "l",
-        "6": "i",
-        "7": "g",
-        "8": "h",
-        "9": "t",
-        "category": "Secondary",
-        "type": "3"
-      },
-      "path": [
-        "Secondary",
-        "3"
-      ],
-      "comment": "Blue light"
-    },
-    "4": {
-      "value": "#ff2121",
-      "type": "color",
-      "description": "Red",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#ff2121",
+      "500": {
+        "value": "#D0D0D0",
         "type": "color",
-        "description": "Red"
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#D0D0D0",
+          "type": "color"
+        },
+        "name": "ColorsGrey500",
+        "attributes": {
+          "category": "colors",
+          "type": "Grey",
+          "item": "500"
+        },
+        "path": [
+          "colors",
+          "Grey",
+          "500"
+        ]
       },
-      "name": "Secondary4",
-      "attributes": {
-        "0": "R",
-        "1": "e",
-        "2": "d",
-        "category": "Secondary",
-        "type": "4"
-      },
-      "path": [
-        "Secondary",
-        "4"
-      ],
-      "comment": "Red"
-    },
-    "5": {
-      "value": "#fed7d7",
-      "type": "color",
-      "description": "Red Light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#fed7d7",
-        "type": "color",
-        "description": "Red Light"
-      },
-      "name": "Secondary5",
-      "attributes": {
-        "0": "R",
-        "1": "e",
-        "2": "d",
-        "3": " ",
-        "4": "L",
-        "5": "i",
-        "6": "g",
-        "7": "h",
-        "8": "t",
-        "category": "Secondary",
-        "type": "5"
-      },
-      "path": [
-        "Secondary",
-        "5"
-      ],
-      "comment": "Red Light"
-    },
-    "6": {
-      "value": "#ff6336",
-      "type": "color",
-      "description": "Orange",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#ff6336",
-        "type": "color",
-        "description": "Orange"
-      },
-      "name": "Secondary6",
-      "attributes": {
-        "0": "O",
-        "1": "r",
-        "2": "a",
-        "3": "n",
-        "4": "g",
-        "5": "e",
-        "category": "Secondary",
-        "type": "6"
-      },
-      "path": [
-        "Secondary",
-        "6"
-      ],
-      "comment": "Orange"
-    },
-    "7": {
-      "value": "#fde5dd",
-      "type": "color",
-      "description": "Orange Light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#fde5dd",
-        "type": "color",
-        "description": "Orange Light"
-      },
-      "name": "Secondary7",
-      "attributes": {
-        "0": "O",
-        "1": "r",
-        "2": "a",
-        "3": "n",
-        "4": "g",
-        "5": "e",
-        "6": " ",
-        "7": "L",
-        "8": "i",
-        "9": "g",
-        "10": "h",
-        "11": "t",
-        "category": "Secondary",
-        "type": "7"
-      },
-      "path": [
-        "Secondary",
-        "7"
-      ],
-      "comment": "Orange Light"
-    },
-    "8": {
-      "value": "#ffe563",
-      "type": "color",
-      "description": "Yellow",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#ffe563",
-        "type": "color",
-        "description": "Yellow"
-      },
-      "name": "Secondary8",
-      "attributes": {
-        "0": "Y",
-        "1": "e",
-        "2": "l",
-        "3": "l",
-        "4": "o",
-        "5": "w",
-        "category": "Secondary",
-        "type": "8"
-      },
-      "path": [
-        "Secondary",
-        "8"
-      ],
-      "comment": "Yellow"
-    },
-    "9": {
-      "value": "#fef4c3",
-      "type": "color",
-      "description": "Yellow Light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#fef4c3",
-        "type": "color",
-        "description": "Yellow Light"
-      },
-      "name": "Secondary9",
-      "attributes": {
-        "0": "Y",
-        "1": "e",
-        "2": "l",
-        "3": "l",
-        "4": "o",
-        "5": "w",
-        "6": " ",
-        "7": "L",
-        "8": "i",
-        "9": "g",
-        "10": "h",
-        "11": "t",
-        "category": "Secondary",
-        "type": "9"
-      },
-      "path": [
-        "Secondary",
-        "9"
-      ],
-      "comment": "Yellow Light"
-    }
-  },
-  "Grey": {
-    "0": {
-      "value": "#767676",
-      "type": "color",
-      "description": "Accessible grey over white. Main use on text",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#767676",
-        "type": "color",
-        "description": "Accessible grey over white. Main use on text"
-      },
-      "name": "Grey0",
-      "attributes": {
-        "0": "A",
-        "1": "c",
-        "2": "c",
-        "3": "e",
-        "4": "s",
-        "5": "s",
-        "6": "i",
-        "7": "b",
-        "8": "l",
-        "9": "e",
-        "10": " ",
-        "11": "g",
-        "12": "r",
-        "13": "e",
-        "14": "y",
-        "15": " ",
-        "16": "o",
-        "17": "v",
-        "18": "e",
-        "19": "r",
-        "20": " ",
-        "21": "w",
-        "22": "h",
-        "23": "i",
-        "24": "t",
-        "25": "e",
-        "26": ".",
-        "27": " ",
-        "28": "M",
-        "29": "a",
-        "30": "i",
-        "31": "n",
-        "32": " ",
-        "33": "u",
-        "34": "s",
-        "35": "e",
-        "36": " ",
-        "37": "o",
-        "38": "n",
-        "39": " ",
-        "40": "t",
-        "41": "e",
-        "42": "x",
-        "43": "t",
-        "category": "Grey",
-        "type": "0"
-      },
-      "path": [
-        "Grey",
-        "0"
-      ],
-      "comment": "Accessible grey over white. Main use on text"
-    },
-    "1": {
-      "value": "#959595",
-      "type": "color",
-      "description": "Laced grey",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
+      "800": {
         "value": "#959595",
         "type": "color",
-        "description": "Laced grey"
-      },
-      "name": "Grey1",
-      "attributes": {
-        "0": "L",
-        "1": "a",
-        "2": "c",
-        "3": "e",
-        "4": "d",
-        "5": " ",
-        "6": "g",
-        "7": "r",
-        "8": "e",
-        "9": "y",
-        "category": "Grey",
-        "type": "1"
-      },
-      "path": [
-        "Grey",
-        "1"
-      ],
-      "comment": "Laced grey"
-    },
-    "2": {
-      "value": "#d0d0d0",
-      "type": "color",
-      "description": "Grey Light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#d0d0d0",
-        "type": "color",
-        "description": "Grey Light"
-      },
-      "name": "Grey2",
-      "attributes": {
-        "0": "G",
-        "1": "r",
-        "2": "e",
-        "3": "y",
-        "4": " ",
-        "5": "L",
-        "6": "i",
-        "7": "g",
-        "8": "h",
-        "9": "t",
-        "category": "Grey",
-        "type": "2"
-      },
-      "path": [
-        "Grey",
-        "2"
-      ],
-      "comment": "Grey Light"
-    },
-    "3": {
-      "value": "#ededed",
-      "type": "color",
-      "description": "Silver",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#ededed",
-        "type": "color",
-        "description": "Silver"
-      },
-      "name": "Grey3",
-      "attributes": {
-        "0": "S",
-        "1": "i",
-        "2": "l",
-        "3": "v",
-        "4": "e",
-        "5": "r",
-        "category": "Grey",
-        "type": "3"
-      },
-      "path": [
-        "Grey",
-        "3"
-      ],
-      "comment": "Silver"
-    },
-    "4": {
-      "value": "#f8f8f8",
-      "type": "color",
-      "description": "Silver Light",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#f8f8f8",
-        "type": "color",
-        "description": "Silver Light"
-      },
-      "name": "Grey4",
-      "attributes": {
-        "0": "S",
-        "1": "i",
-        "2": "l",
-        "3": "v",
-        "4": "e",
-        "5": "r",
-        "6": " ",
-        "7": "L",
-        "8": "i",
-        "9": "g",
-        "10": "h",
-        "11": "t",
-        "category": "Grey",
-        "type": "4"
-      },
-      "path": [
-        "Grey",
-        "4"
-      ],
-      "comment": "Silver Light"
-    }
-  },
-  "Semantic": {
-    "Critical": {
-      "value": "#dd3100",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#dd3100",
-        "type": "color"
-      },
-      "name": "SemanticCritical",
-      "attributes": {
-        "category": "Semantic",
-        "type": "Critical"
-      },
-      "path": [
-        "Semantic",
-        "Critical"
-      ]
-    },
-    "Negative": {
-      "value": "#b90000",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#b90000",
-        "type": "color"
-      },
-      "name": "SemanticNegative",
-      "attributes": {
-        "category": "Semantic",
-        "type": "Negative"
-      },
-      "path": [
-        "Semantic",
-        "Negative"
-      ]
-    },
-    "Positive": {
-      "value": "#006b52",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#006b52",
-        "type": "color"
-      },
-      "name": "SemanticPositive",
-      "attributes": {
-        "category": "Semantic",
-        "type": "Positive"
-      },
-      "path": [
-        "Semantic",
-        "Positive"
-      ]
-    }
-  },
-  "Interaction": {
-    "1": {
-      "value": "#000000",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "name": "Interaction1",
-      "attributes": {
-        "category": "Interaction",
-        "type": "1"
-      },
-      "path": [
-        "Interaction",
-        "1"
-      ]
-    },
-    "2": {
-      "value": "#158c70",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#158c70",
-        "type": "color"
-      },
-      "name": "Interaction2",
-      "attributes": {
-        "category": "Interaction",
-        "type": "2"
-      },
-      "path": [
-        "Interaction",
-        "2"
-      ]
-    },
-    "3": {
-      "value": "#97E2D0",
-      "type": "color",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "#97E2D0",
-        "type": "color"
-      },
-      "name": "Interaction3",
-      "attributes": {
-        "category": "Interaction",
-        "type": "3"
-      },
-      "path": [
-        "Interaction",
-        "3"
-      ]
-    }
-  },
-  "Shadow": {
-    "Card": {
-      "value": "10px 10px 30px 0px #0000001a",
-      "type": "boxShadow",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "color": "#0000001a",
-          "type": "dropShadow",
-          "x": 10,
-          "y": 10,
-          "blur": 30,
-          "spread": 0
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#959595",
+          "type": "color"
         },
-        "type": "boxShadow"
+        "name": "ColorsGrey800",
+        "attributes": {
+          "category": "colors",
+          "type": "Grey",
+          "item": "800"
+        },
+        "path": [
+          "colors",
+          "Grey",
+          "800"
+        ]
       },
-      "name": "ShadowCard",
-      "attributes": {
-        "category": "Shadow",
-        "type": "Card"
-      },
-      "path": [
-        "Shadow",
-        "Card"
-      ]
+      "900": {
+        "value": "#767676",
+        "type": "color",
+        "description": "accesible grey on Light backgrounds",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#767676",
+          "type": "color",
+          "description": "accesible grey on Light backgrounds"
+        },
+        "name": "ColorsGrey900",
+        "attributes": {
+          "0": "a",
+          "1": "c",
+          "2": "c",
+          "3": "e",
+          "4": "s",
+          "5": "i",
+          "6": "b",
+          "7": "l",
+          "8": "e",
+          "9": " ",
+          "10": "g",
+          "11": "r",
+          "12": "e",
+          "13": "y",
+          "14": " ",
+          "15": "o",
+          "16": "n",
+          "17": " ",
+          "18": "L",
+          "19": "i",
+          "20": "g",
+          "21": "h",
+          "22": "t",
+          "23": " ",
+          "24": "b",
+          "25": "a",
+          "26": "c",
+          "27": "k",
+          "28": "g",
+          "29": "r",
+          "30": "o",
+          "31": "u",
+          "32": "n",
+          "33": "d",
+          "34": "s",
+          "category": "colors",
+          "type": "Grey",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "Grey",
+          "900"
+        ],
+        "comment": "accesible grey on Light backgrounds"
+      }
     },
-    "Chip": {
-      "value": "0px 2px 10px 0px #10101030",
-      "type": "boxShadow",
+    "S2": {
+      "200": {
+        "value": "#CED4E3",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#CED4E3",
+          "type": "color"
+        },
+        "name": "ColorsS2200",
+        "attributes": {
+          "category": "colors",
+          "type": "S2",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S2",
+          "200"
+        ]
+      },
+      "900": {
+        "value": "#0D3499",
+        "type": "color",
+        "description": "Secondary accent colour",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#0D3499",
+          "type": "color",
+          "description": "Secondary accent colour"
+        },
+        "name": "ColorsS2900",
+        "attributes": {
+          "0": "S",
+          "1": "e",
+          "2": "c",
+          "3": "o",
+          "4": "n",
+          "5": "d",
+          "6": "a",
+          "7": "r",
+          "8": "y",
+          "9": " ",
+          "10": "a",
+          "11": "c",
+          "12": "c",
+          "13": "e",
+          "14": "n",
+          "15": "t",
+          "16": " ",
+          "17": "c",
+          "18": "o",
+          "19": "l",
+          "20": "o",
+          "21": "u",
+          "22": "r",
+          "category": "colors",
+          "type": "S2",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S2",
+          "900"
+        ],
+        "comment": "Secondary accent colour"
+      }
+    },
+    "S3": {
+      "200": {
+        "value": "#FED7D7",
+        "type": "color",
+        "description": "Red Light",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FED7D7",
+          "type": "color",
+          "description": "Red Light"
+        },
+        "name": "ColorsS3200",
+        "attributes": {
+          "0": "R",
+          "1": "e",
+          "2": "d",
+          "3": " ",
+          "4": "L",
+          "5": "i",
+          "6": "g",
+          "7": "h",
+          "8": "t",
+          "category": "colors",
+          "type": "S3",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S3",
+          "200"
+        ],
+        "comment": "Red Light"
+      },
+      "900": {
+        "value": "#FF2121",
+        "type": "color",
+        "description": "Red",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FF2121",
+          "type": "color",
+          "description": "Red"
+        },
+        "name": "ColorsS3900",
+        "attributes": {
+          "0": "R",
+          "1": "e",
+          "2": "d",
+          "category": "colors",
+          "type": "S3",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S3",
+          "900"
+        ],
+        "comment": "Red"
+      }
+    },
+    "S5": {
+      "200": {
+        "value": "#FEF4C3",
+        "type": "color",
+        "description": "Yellow Light",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FEF4C3",
+          "type": "color",
+          "description": "Yellow Light"
+        },
+        "name": "ColorsS5200",
+        "attributes": {
+          "0": "Y",
+          "1": "e",
+          "2": "l",
+          "3": "l",
+          "4": "o",
+          "5": "w",
+          "6": " ",
+          "7": "L",
+          "8": "i",
+          "9": "g",
+          "10": "h",
+          "11": "t",
+          "category": "colors",
+          "type": "S5",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S5",
+          "200"
+        ],
+        "comment": "Yellow Light"
+      },
+      "900": {
+        "value": "#FFE563",
+        "type": "color",
+        "description": "Yellow",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFE563",
+          "type": "color",
+          "description": "Yellow"
+        },
+        "name": "ColorsS5900",
+        "attributes": {
+          "0": "Y",
+          "1": "e",
+          "2": "l",
+          "3": "l",
+          "4": "o",
+          "5": "w",
+          "category": "colors",
+          "type": "S5",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S5",
+          "900"
+        ],
+        "comment": "Yellow"
+      }
+    },
+    "S4": {
+      "200": {
+        "value": "#FDE5DD",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FDE5DD",
+          "type": "color"
+        },
+        "name": "ColorsS4200",
+        "attributes": {
+          "category": "colors",
+          "type": "S4",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S4",
+          "200"
+        ]
+      },
+      "900": {
+        "value": "#FF6336",
+        "type": "color",
+        "description": "Orange",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#FF6336",
+          "type": "color",
+          "description": "Orange"
+        },
+        "name": "ColorsS4900",
+        "attributes": {
+          "0": "O",
+          "1": "r",
+          "2": "a",
+          "3": "n",
+          "4": "g",
+          "5": "e",
+          "category": "colors",
+          "type": "S4",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S4",
+          "900"
+        ],
+        "comment": "Orange"
+      }
+    },
+    "S6": {
+      "200": {
+        "value": "#DEF7E9",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#DEF7E9",
+          "type": "color"
+        },
+        "name": "ColorsS6200",
+        "attributes": {
+          "category": "colors",
+          "type": "S6",
+          "item": "200"
+        },
+        "path": [
+          "colors",
+          "S6",
+          "200"
+        ]
+      },
+      "900": {
+        "value": "#02DB62",
+        "type": "color",
+        "description": "Green",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#02DB62",
+          "type": "color",
+          "description": "Green"
+        },
+        "name": "ColorsS6900",
+        "attributes": {
+          "0": "G",
+          "1": "r",
+          "2": "e",
+          "3": "e",
+          "4": "n",
+          "category": "colors",
+          "type": "S6",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S6",
+          "900"
+        ],
+        "comment": "Green"
+      }
+    },
+    "S7": {
+      "900": {
+        "value": "#0A2918",
+        "type": "color",
+        "description": "Dark grey",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#0A2918",
+          "type": "color",
+          "description": "Dark grey"
+        },
+        "name": "ColorsS7900",
+        "attributes": {
+          "0": "D",
+          "1": "a",
+          "2": "r",
+          "3": "k",
+          "4": " ",
+          "5": "g",
+          "6": "r",
+          "7": "e",
+          "8": "y",
+          "category": "colors",
+          "type": "S7",
+          "item": "900"
+        },
+        "path": [
+          "colors",
+          "S7",
+          "900"
+        ],
+        "comment": "Dark grey"
+      }
+    },
+    "semantic": {
+      "Critical": {
+        "value": "#DD3100",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#DD3100",
+          "type": "color"
+        },
+        "name": "ColorsSemanticCritical",
+        "attributes": {
+          "category": "colors",
+          "type": "semantic",
+          "item": "Critical"
+        },
+        "path": [
+          "colors",
+          "semantic",
+          "Critical"
+        ]
+      },
+      "positive": {
+        "value": "#006B52",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#006B52",
+          "type": "color"
+        },
+        "name": "ColorsSemanticPositive",
+        "attributes": {
+          "category": "colors",
+          "type": "semantic",
+          "item": "positive"
+        },
+        "path": [
+          "colors",
+          "semantic",
+          "positive"
+        ]
+      },
+      "negative": {
+        "value": "#B90000",
+        "type": "color",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": "#B90000",
+          "type": "color"
+        },
+        "name": "ColorsSemanticNegative",
+        "attributes": {
+          "category": "colors",
+          "type": "semantic",
+          "item": "negative"
+        },
+        "path": [
+          "colors",
+          "semantic",
+          "negative"
+        ]
+      }
+    }
+  },
+  "opacity": {
+    "low": {
+      "value": "10%",
+      "type": "opacity",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "color": "#10101030",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 2,
-          "blur": 10,
-          "spread": 0
-        },
-        "type": "boxShadow"
+        "value": "10%",
+        "type": "opacity"
       },
-      "name": "ShadowChip",
+      "name": "OpacityLow",
       "attributes": {
-        "category": "Shadow",
-        "type": "Chip"
+        "category": "opacity",
+        "type": "low"
       },
       "path": [
-        "Shadow",
-        "Chip"
+        "opacity",
+        "low"
+      ]
+    },
+    "md": {
+      "value": "50%",
+      "type": "opacity",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": "50%",
+        "type": "opacity"
+      },
+      "name": "OpacityMd",
+      "attributes": {
+        "category": "opacity",
+        "type": "md"
+      },
+      "path": [
+        "opacity",
+        "md"
+      ]
+    },
+    "high": {
+      "value": "90%",
+      "type": "opacity",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": "90%",
+        "type": "opacity"
+      },
+      "name": "OpacityHigh",
+      "attributes": {
+        "category": "opacity",
+        "type": "high"
+      },
+      "path": [
+        "opacity",
+        "high"
       ]
     }
   },
   "fontFamilies": {
-    "body": {
-      "value": "Helvetica",
-      "type": "fontFamilies",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "Helvetica",
-        "type": "fontFamilies"
-      },
-      "name": "FontFamiliesBody",
-      "attributes": {
-        "category": "fontFamilies",
-        "type": "body"
-      },
-      "path": [
-        "fontFamilies",
-        "body"
-      ]
-    },
     "heading": {
       "value": "Segoe UI",
       "type": "fontFamilies",
@@ -734,48 +1087,29 @@ module.exports = {
         "fontFamilies",
         "heading"
       ]
+    },
+    "body": {
+      "value": "Helvetica",
+      "type": "fontFamilies",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": "Helvetica",
+        "type": "fontFamilies"
+      },
+      "name": "FontFamiliesBody",
+      "attributes": {
+        "category": "fontFamilies",
+        "type": "body"
+      },
+      "path": [
+        "fontFamilies",
+        "body"
+      ]
     }
   },
   "lineHeights": {
-    "0": {
-      "value": "150%",
-      "type": "lineHeights",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "150%",
-        "type": "lineHeights"
-      },
-      "name": "LineHeights0",
-      "attributes": {
-        "category": "lineHeights",
-        "type": "0"
-      },
-      "path": [
-        "lineHeights",
-        "0"
-      ]
-    },
-    "1": {
-      "value": "130%",
-      "type": "lineHeights",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "130%",
-        "type": "lineHeights"
-      },
-      "name": "LineHeights1",
-      "attributes": {
-        "category": "lineHeights",
-        "type": "1"
-      },
-      "path": [
-        "lineHeights",
-        "1"
-      ]
-    },
-    "2": {
+    "heading": {
       "value": "120%",
       "type": "lineHeights",
       "filePath": "style-dictionary/global-rebrand.json",
@@ -784,270 +1118,57 @@ module.exports = {
         "value": "120%",
         "type": "lineHeights"
       },
-      "name": "LineHeights2",
+      "name": "LineHeightsHeading",
       "attributes": {
         "category": "lineHeights",
-        "type": "2"
+        "type": "heading"
       },
       "path": [
         "lineHeights",
-        "2"
-      ]
-    }
-  },
-  "fontWeights": {
-    "regular": {
-      "value": 400,
-      "type": "fontWeights",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "name": "FontWeightsRegular",
-      "attributes": {
-        "category": "fontWeights",
-        "type": "regular"
-      },
-      "path": [
-        "fontWeights",
-        "regular"
+        "heading"
       ]
     },
-    "bold": {
-      "value": 700,
-      "type": "fontWeights",
+    "body": {
+      "value": "150%",
+      "type": "lineHeights",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": "Bold",
-        "type": "fontWeights"
+        "value": "150%",
+        "type": "lineHeights"
       },
-      "name": "FontWeightsBold",
+      "name": "LineHeightsBody",
       "attributes": {
-        "category": "fontWeights",
-        "type": "bold"
+        "category": "lineHeights",
+        "type": "body"
       },
       "path": [
-        "fontWeights",
-        "bold"
-      ]
-    },
-    "light": {
-      "value": 300,
-      "type": "fontWeights",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "Light",
-        "type": "fontWeights"
-      },
-      "name": "FontWeightsLight",
-      "attributes": {
-        "category": "fontWeights",
-        "type": "light"
-      },
-      "path": [
-        "fontWeights",
-        "light"
-      ]
-    }
-  },
-  "fontSize": {
-    "0": {
-      "value": "12px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 12,
-        "type": "fontSizes"
-      },
-      "name": "FontSize0",
-      "attributes": {
-        "category": "fontSize",
-        "type": "0"
-      },
-      "path": [
-        "fontSize",
-        "0"
-      ]
-    },
-    "1": {
-      "value": "14px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "name": "FontSize1",
-      "attributes": {
-        "category": "fontSize",
-        "type": "1"
-      },
-      "path": [
-        "fontSize",
-        "1"
-      ]
-    },
-    "2": {
-      "value": "16px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 16,
-        "type": "fontSizes"
-      },
-      "name": "FontSize2",
-      "attributes": {
-        "category": "fontSize",
-        "type": "2"
-      },
-      "path": [
-        "fontSize",
-        "2"
-      ]
-    },
-    "3": {
-      "value": "18px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 18,
-        "type": "fontSizes"
-      },
-      "name": "FontSize3",
-      "attributes": {
-        "category": "fontSize",
-        "type": "3"
-      },
-      "path": [
-        "fontSize",
-        "3"
-      ]
-    },
-    "4": {
-      "value": "20px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 20,
-        "type": "fontSizes"
-      },
-      "name": "FontSize4",
-      "attributes": {
-        "category": "fontSize",
-        "type": "4"
-      },
-      "path": [
-        "fontSize",
-        "4"
-      ]
-    },
-    "5": {
-      "value": "24px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 24,
-        "type": "fontSizes"
-      },
-      "name": "FontSize5",
-      "attributes": {
-        "category": "fontSize",
-        "type": "5"
-      },
-      "path": [
-        "fontSize",
-        "5"
-      ]
-    },
-    "6": {
-      "value": "32px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 32,
-        "type": "fontSizes"
-      },
-      "name": "FontSize6",
-      "attributes": {
-        "category": "fontSize",
-        "type": "6"
-      },
-      "path": [
-        "fontSize",
-        "6"
-      ]
-    },
-    "7": {
-      "value": "40px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 40,
-        "type": "fontSizes"
-      },
-      "name": "FontSize7",
-      "attributes": {
-        "category": "fontSize",
-        "type": "7"
-      },
-      "path": [
-        "fontSize",
-        "7"
-      ]
-    },
-    "8": {
-      "value": "48px",
-      "type": "fontSizes",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 48,
-        "type": "fontSizes"
-      },
-      "name": "FontSize8",
-      "attributes": {
-        "category": "fontSize",
-        "type": "8"
-      },
-      "path": [
-        "fontSize",
-        "8"
+        "lineHeights",
+        "body"
       ]
     }
   },
   "letterSpacing": {
-    "0": {
-      "value": "0em",
+    "default": {
+      "value": "0px",
       "type": "letterSpacing",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": "0%",
+        "value": 0,
         "type": "letterSpacing"
       },
-      "name": "LetterSpacing0",
+      "name": "LetterSpacingDefault",
       "attributes": {
         "category": "letterSpacing",
-        "type": "0"
+        "type": "default"
       },
       "path": [
         "letterSpacing",
-        "0"
+        "default"
       ]
     },
-    "1": {
+    "increasedM": {
       "value": "0.2em",
       "type": "letterSpacing",
       "filePath": "style-dictionary/global-rebrand.json",
@@ -1056,38 +1177,95 @@ module.exports = {
         "value": "20%",
         "type": "letterSpacing"
       },
-      "name": "LetterSpacing1",
+      "name": "LetterSpacingIncreasedM",
       "attributes": {
         "category": "letterSpacing",
-        "type": "1"
+        "type": "increasedM"
       },
       "path": [
         "letterSpacing",
-        "1"
+        "increasedM"
+      ]
+    },
+    "increaseS": {
+      "value": "0.1em",
+      "type": "letterSpacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": "10%",
+        "type": "letterSpacing"
+      },
+      "name": "LetterSpacingIncreaseS",
+      "attributes": {
+        "category": "letterSpacing",
+        "type": "increaseS"
+      },
+      "path": [
+        "letterSpacing",
+        "increaseS"
       ]
     }
   },
   "paragraphSpacing": {
-    "0": {
-      "value": "0px",
+    "l": {
+      "value": "32px",
       "type": "paragraphSpacing",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": 0,
+        "value": 32,
         "type": "paragraphSpacing"
       },
-      "name": "ParagraphSpacing0",
+      "name": "ParagraphSpacingL",
       "attributes": {
         "category": "paragraphSpacing",
-        "type": "0"
+        "type": "l"
       },
       "path": [
         "paragraphSpacing",
-        "0"
+        "l"
       ]
     },
-    "1": {
+    "m": {
+      "value": "24px",
+      "type": "paragraphSpacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 24,
+        "type": "paragraphSpacing"
+      },
+      "name": "ParagraphSpacingM",
+      "attributes": {
+        "category": "paragraphSpacing",
+        "type": "m"
+      },
+      "path": [
+        "paragraphSpacing",
+        "m"
+      ]
+    },
+    "sm": {
+      "value": "16px",
+      "type": "paragraphSpacing",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": 16,
+        "type": "paragraphSpacing"
+      },
+      "name": "ParagraphSpacingSm",
+      "attributes": {
+        "category": "paragraphSpacing",
+        "type": "sm"
+      },
+      "path": [
+        "paragraphSpacing",
+        "sm"
+      ]
+    },
+    "xs": {
       "value": "8px",
       "type": "paragraphSpacing",
       "filePath": "style-dictionary/global-rebrand.json",
@@ -1096,1914 +1274,276 @@ module.exports = {
         "value": 8,
         "type": "paragraphSpacing"
       },
-      "name": "ParagraphSpacing1",
+      "name": "ParagraphSpacingXs",
       "attributes": {
         "category": "paragraphSpacing",
-        "type": "1"
+        "type": "xs"
       },
       "path": [
         "paragraphSpacing",
-        "1"
+        "xs"
       ]
     }
   },
-  "text-base": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+  "fontWeights": {
+    "headingRegular": {
+      "value": 400,
+      "type": "fontWeights",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 16,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": "Regular",
+        "type": "fontWeights"
       },
-      "name": "TextBaseRegular",
+      "name": "FontWeightsHeadingRegular",
       "attributes": {
-        "category": "text-base",
-        "type": "regular"
+        "category": "fontWeights",
+        "type": "headingRegular"
       },
       "path": [
-        "text-base",
-        "regular"
+        "fontWeights",
+        "headingRegular"
       ]
     },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+    "headingBold": {
+      "value": 700,
+      "type": "fontWeights",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 16,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": "Bold",
+        "type": "fontWeights"
       },
-      "name": "TextBaseLight",
+      "name": "FontWeightsHeadingBold",
       "attributes": {
-        "category": "text-base",
-        "type": "light"
+        "category": "fontWeights",
+        "type": "headingBold"
       },
       "path": [
-        "text-base",
-        "light"
+        "fontWeights",
+        "headingBold"
       ]
     },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+    "bodyRegular": {
+      "value": 400,
+      "type": "fontWeights",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 16,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": "Regular",
+        "type": "fontWeights"
       },
-      "name": "TextBaseBold",
+      "name": "FontWeightsBodyRegular",
       "attributes": {
-        "category": "text-base",
-        "type": "bold"
+        "category": "fontWeights",
+        "type": "bodyRegular"
       },
       "path": [
-        "text-base",
-        "bold"
+        "fontWeights",
+        "bodyRegular"
       ]
     },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
+    "bodyBold": {
+      "value": 700,
+      "type": "fontWeights",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 16,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography"
+        "value": "Bold",
+        "type": "fontWeights"
       },
-      "name": "TextBaseUnderline",
+      "name": "FontWeightsBodyBold",
       "attributes": {
-        "category": "text-base",
-        "type": "underline"
+        "category": "fontWeights",
+        "type": "bodyBold"
       },
       "path": [
-        "text-base",
-        "underline"
+        "fontWeights",
+        "bodyBold"
       ]
     }
   },
-  "text-m": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+  "fontSizes": {
+    "h1": {
+      "value": "44px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 18,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": 44,
+        "type": "fontSizes"
       },
-      "name": "TextMRegular",
+      "name": "FontSizesH1",
       "attributes": {
-        "category": "text-m",
-        "type": "regular"
+        "category": "fontSizes",
+        "type": "h1"
       },
       "path": [
-        "text-m",
-        "regular"
+        "fontSizes",
+        "h1"
       ]
     },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+    "h2": {
+      "value": "32px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 18,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": 32,
+        "type": "fontSizes"
       },
-      "name": "TextMLight",
+      "name": "FontSizesH2",
       "attributes": {
-        "category": "text-m",
-        "type": "light"
+        "category": "fontSizes",
+        "type": "h2"
       },
       "path": [
-        "text-m",
-        "light"
+        "fontSizes",
+        "h2"
       ]
     },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
+    "h3": {
+      "value": "24px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 18,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
+        "value": 24,
+        "type": "fontSizes"
       },
-      "name": "TextMBold",
+      "name": "FontSizesH3",
       "attributes": {
-        "category": "text-m",
-        "type": "bold"
+        "category": "fontSizes",
+        "type": "h3"
       },
       "path": [
-        "text-m",
-        "bold"
+        "fontSizes",
+        "h3"
       ]
     },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
+    "h4": {
+      "value": "20px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 18,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography"
+        "value": 20,
+        "type": "fontSizes"
       },
-      "name": "TextMUnderline",
+      "name": "FontSizesH4",
       "attributes": {
-        "category": "text-m",
-        "type": "underline"
+        "category": "fontSizes",
+        "type": "h4"
       },
       "path": [
-        "text-m",
-        "underline"
-      ]
-    }
-  },
-  "text-lg": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 20,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextLgRegular",
-      "attributes": {
-        "category": "text-lg",
-        "type": "regular"
-      },
-      "path": [
-        "text-lg",
-        "regular"
+        "fontSizes",
+        "h4"
       ]
     },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
+    "h5": {
+      "value": "16px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 20,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
+        "value": 16,
+        "type": "fontSizes"
       },
-      "name": "TextLgLight",
+      "name": "FontSizesH5",
       "attributes": {
-        "category": "text-lg",
-        "type": "light"
+        "category": "fontSizes",
+        "type": "h5"
       },
       "path": [
-        "text-lg",
-        "light"
+        "fontSizes",
+        "h5"
       ]
     },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
+    "h6": {
+      "value": "14px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 20,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
+        "value": 14,
+        "type": "fontSizes"
       },
-      "name": "TextLgBold",
+      "name": "FontSizesH6",
       "attributes": {
-        "category": "text-lg",
-        "type": "bold"
+        "category": "fontSizes",
+        "type": "h6"
       },
       "path": [
-        "text-lg",
-        "bold"
+        "fontSizes",
+        "h6"
       ]
     },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
+    "body": {
+      "value": "16px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 20,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
+        "value": 16,
+        "type": "fontSizes"
       },
-      "name": "TextLgUnderline",
+      "name": "FontSizesBody",
       "attributes": {
-        "category": "text-lg",
-        "type": "underline"
+        "category": "fontSizes",
+        "type": "body"
       },
       "path": [
-        "text-lg",
-        "underline"
-      ]
-    }
-  },
-  "text-xl": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 24,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXlRegular",
-      "attributes": {
-        "category": "text-xl",
-        "type": "regular"
-      },
-      "path": [
-        "text-xl",
-        "regular"
+        "fontSizes",
+        "body"
       ]
     },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
+    "sm": {
+      "value": "14px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 24,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
+        "value": 14,
+        "type": "fontSizes"
       },
-      "name": "TextXlLight",
+      "name": "FontSizesSm",
       "attributes": {
-        "category": "text-xl",
-        "type": "light"
+        "category": "fontSizes",
+        "type": "sm"
       },
       "path": [
-        "text-xl",
-        "light"
+        "fontSizes",
+        "sm"
       ]
     },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
+    "xs": {
+      "value": "12px",
+      "type": "fontSizes",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 24,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
+        "value": 12,
+        "type": "fontSizes"
       },
-      "name": "TextXlBold",
+      "name": "FontSizesXs",
       "attributes": {
-        "category": "text-xl",
-        "type": "bold"
+        "category": "fontSizes",
+        "type": "xs"
       },
       "path": [
-        "text-xl",
-        "bold"
-      ]
-    },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.segoe-ui",
-          "fontWeight": "$fontWeights.segoe-ui-2",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 24,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.segoe-ui",
-            "fontWeight": "$fontWeights.segoe-ui-2",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXlUnderline",
-      "attributes": {
-        "category": "text-xl",
-        "type": "underline"
-      },
-      "path": [
-        "text-xl",
-        "underline"
-      ]
-    }
-  },
-  "text-s": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.2",
-          "fontSize": "$fontSize.1",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 14,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.2",
-            "fontSize": "$fontSize.1",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextSRegular",
-      "attributes": {
-        "category": "text-s",
-        "type": "regular"
-      },
-      "path": [
-        "text-s",
-        "regular"
-      ]
-    },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.2",
-          "fontSize": "$fontSize.1",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 14,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.2",
-            "fontSize": "$fontSize.1",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextSLight",
-      "attributes": {
-        "category": "text-s",
-        "type": "light"
-      },
-      "path": [
-        "text-s",
-        "light"
-      ]
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.2",
-          "fontSize": "$fontSize.1",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 14,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.2",
-            "fontSize": "$fontSize.1",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextSBold",
-      "attributes": {
-        "category": "text-s",
-        "type": "bold"
-      },
-      "path": [
-        "text-s",
-        "bold"
-      ]
-    },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.2",
-          "fontSize": "$fontSize.1",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 14,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.2",
-            "fontSize": "$fontSize.1",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextSUnderline",
-      "attributes": {
-        "category": "text-s",
-        "type": "underline"
-      },
-      "path": [
-        "text-s",
-        "underline"
-      ]
-    }
-  },
-  "text-xs": {
-    "regular": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Regular",
-        "lineHeight": "150%",
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.0",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 12,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.0",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXsRegular",
-      "attributes": {
-        "category": "text-xs",
-        "type": "regular"
-      },
-      "path": [
-        "text-xs",
-        "regular"
-      ]
-    },
-    "light": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Light",
-        "lineHeight": "150%",
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.0",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Light",
-          "lineHeight": "150%",
-          "fontSize": 12,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.0",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXsLight",
-      "attributes": {
-        "category": "text-xs",
-        "type": "light"
-      },
-      "path": [
-        "text-xs",
-        "light"
-      ]
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.0",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 12,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.0",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXsBold",
-      "attributes": {
-        "category": "text-xs",
-        "type": "bold"
-      },
-      "path": [
-        "text-xs",
-        "bold"
-      ]
-    },
-    "underline": {
-      "value": {
-        "fontFamily": "Helvetica",
-        "fontWeight": "Bold",
-        "lineHeight": "150%",
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
-      "bold": {
-        "value": {
-          "fontFamily": "$fontFamilies.helvetica",
-          "fontWeight": "$fontWeights.helvetica-1",
-          "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.0",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
-        "type": "typography",
-        "filePath": "style-dictionary/global-rebrand.json",
-        "isSource": true
-      },
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Helvetica",
-          "fontWeight": "Bold",
-          "lineHeight": "150%",
-          "fontSize": 12,
-          "letterSpacing": "0%",
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "underline"
-        },
-        "type": "typography",
-        "bold": {
-          "value": {
-            "fontFamily": "$fontFamilies.helvetica",
-            "fontWeight": "$fontWeights.helvetica-1",
-            "lineHeight": "$lineHeights.1",
-            "fontSize": "$fontSize.0",
-            "letterSpacing": "$letterSpacing.0",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          },
-          "type": "typography",
-          "filePath": "style-dictionary/global-rebrand.json",
-          "isSource": true
-        }
-      },
-      "name": "TextXsUnderline",
-      "attributes": {
-        "category": "text-xs",
-        "type": "underline"
-      },
-      "path": [
-        "text-xs",
-        "underline"
-      ]
-    }
-  },
-  "Heading 6": {
-    "default": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "120%",
-        "fontSize": 14,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "120%",
-          "fontSize": 14,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading6Default",
-      "attributes": {
-        "category": "Heading 6",
-        "type": "default"
-      },
-      "path": [
-        "Heading 6",
-        "default"
-      ]
-    },
-    "underline": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "120%",
-        "fontSize": 14,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "underline"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "120%",
-          "fontSize": 14,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "underline"
-        },
-        "type": "typography"
-      },
-      "name": "Heading6Underline",
-      "attributes": {
-        "category": "Heading 6",
-        "type": "underline"
-      },
-      "path": [
-        "Heading 6",
-        "underline"
-      ]
-    }
-  },
-  "Heading 1": {
-    "L": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 48,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "description": "Heading1 for Desktop and tablet",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 48,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography",
-        "description": "Heading1 for Desktop and tablet"
-      },
-      "name": "Heading1L",
-      "attributes": {
-        "0": "H",
-        "1": "e",
-        "2": "a",
-        "3": "d",
-        "4": "i",
-        "5": "n",
-        "6": "g",
-        "7": "1",
-        "8": " ",
-        "9": "f",
-        "10": "o",
-        "11": "r",
-        "12": " ",
-        "13": "D",
-        "14": "e",
-        "15": "s",
-        "16": "k",
-        "17": "t",
-        "18": "o",
-        "19": "p",
-        "20": " ",
-        "21": "a",
-        "22": "n",
-        "23": "d",
-        "24": " ",
-        "25": "t",
-        "26": "a",
-        "27": "b",
-        "28": "l",
-        "29": "e",
-        "30": "t",
-        "category": "Heading 1",
-        "type": "L"
-      },
-      "path": [
-        "Heading 1",
-        "L"
-      ],
-      "comment": "Heading1 for Desktop and tablet"
-    },
-    "S": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 40,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 40,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading1S",
-      "attributes": {
-        "category": "Heading 1",
-        "type": "S"
-      },
-      "path": [
-        "Heading 1",
-        "S"
-      ]
-    }
-  },
-  "Heading 2": {
-    "L": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 40,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 40,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading2L",
-      "attributes": {
-        "category": "Heading 2",
-        "type": "L"
-      },
-      "path": [
-        "Heading 2",
-        "L"
-      ]
-    },
-    "S": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 32,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 32,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading2S",
-      "attributes": {
-        "category": "Heading 2",
-        "type": "S"
-      },
-      "path": [
-        "Heading 2",
-        "S"
-      ]
-    }
-  },
-  "Heading 3": {
-    "L": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 32,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 32,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading3L",
-      "attributes": {
-        "category": "Heading 3",
-        "type": "L"
-      },
-      "path": [
-        "Heading 3",
-        "L"
-      ]
-    },
-    "S": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 24,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 24,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading3S",
-      "attributes": {
-        "category": "Heading 3",
-        "type": "S"
-      },
-      "path": [
-        "Heading 3",
-        "S"
-      ]
-    }
-  },
-  "Heading 4": {
-    "L": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 24,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 24,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading4L",
-      "attributes": {
-        "category": "Heading 4",
-        "type": "L"
-      },
-      "path": [
-        "Heading 4",
-        "L"
-      ]
-    },
-    "S": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 20,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 20,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading4S",
-      "attributes": {
-        "category": "Heading 4",
-        "type": "S"
-      },
-      "path": [
-        "Heading 4",
-        "S"
-      ]
-    }
-  },
-  "Heading 5": {
-    "L": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 20,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 20,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading5L",
-      "attributes": {
-        "category": "Heading 5",
-        "type": "L"
-      },
-      "path": [
-        "Heading 5",
-        "L"
-      ]
-    },
-    "S": {
-      "value": {
-        "fontFamily": "Segoe UI",
-        "fontWeight": "Bold",
-        "lineHeight": "130%",
-        "fontSize": 18,
-        "letterSpacing": "20%",
-        "paragraphSpacing": 0,
-        "textCase": "uppercase",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Segoe UI",
-          "fontWeight": "Bold",
-          "lineHeight": "130%",
-          "fontSize": 18,
-          "letterSpacing": "20%",
-          "paragraphSpacing": 0,
-          "textCase": "uppercase",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "Heading5S",
-      "attributes": {
-        "category": "Heading 5",
-        "type": "S"
-      },
-      "path": [
-        "Heading 5",
-        "S"
+        "fontSizes",
+        "xs"
       ]
     }
   },
   "textCase": {
-    "none": {
-      "value": "none",
-      "type": "textCase",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "name": "TextCaseNone",
-      "attributes": {
-        "category": "textCase",
-        "type": "none"
-      },
-      "path": [
-        "textCase",
-        "none"
-      ]
-    },
     "uppercase": {
-      "value": "uppercase",
+      "value": "Uppercase",
       "type": "textCase",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": "uppercase",
+        "value": "Uppercase",
         "type": "textCase"
       },
       "name": "TextCaseUppercase",
@@ -3015,28 +1555,120 @@ module.exports = {
         "textCase",
         "uppercase"
       ]
-    }
-  },
-  "textDecoration": {
+    },
+    "capitalize": {
+      "value": "capitalize",
+      "type": "textCase",
+      "description": "e.g.: Sneaker Marketplace",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": "capitalize",
+        "type": "textCase",
+        "description": "e.g.: Sneaker Marketplace"
+      },
+      "name": "TextCaseCapitalize",
+      "attributes": {
+        "0": "e",
+        "1": ".",
+        "2": "g",
+        "3": ".",
+        "4": ":",
+        "5": " ",
+        "6": "S",
+        "7": "n",
+        "8": "e",
+        "9": "a",
+        "10": "k",
+        "11": "e",
+        "12": "r",
+        "13": " ",
+        "14": "M",
+        "15": "a",
+        "16": "r",
+        "17": "k",
+        "18": "e",
+        "19": "t",
+        "20": "p",
+        "21": "l",
+        "22": "a",
+        "23": "c",
+        "24": "e",
+        "category": "textCase",
+        "type": "capitalize"
+      },
+      "path": [
+        "textCase",
+        "capitalize"
+      ],
+      "comment": "e.g.: Sneaker Marketplace"
+    },
     "none": {
       "value": "none",
-      "type": "textDecoration",
+      "type": "textCase",
+      "description": "e.g.: Sneaker Marketplace",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
         "value": "none",
-        "type": "textDecoration"
+        "type": "textCase",
+        "description": "e.g.: Sneaker Marketplace"
       },
-      "name": "TextDecorationNone",
+      "name": "TextCaseNone",
       "attributes": {
-        "category": "textDecoration",
+        "0": "e",
+        "1": ".",
+        "2": "g",
+        "3": ".",
+        "4": ":",
+        "5": " ",
+        "6": "S",
+        "7": "n",
+        "8": "e",
+        "9": "a",
+        "10": "k",
+        "11": "e",
+        "12": "r",
+        "13": " ",
+        "14": "M",
+        "15": "a",
+        "16": "r",
+        "17": "k",
+        "18": "e",
+        "19": "t",
+        "20": "p",
+        "21": "l",
+        "22": "a",
+        "23": "c",
+        "24": "e",
+        "category": "textCase",
         "type": "none"
       },
       "path": [
-        "textDecoration",
+        "textCase",
         "none"
-      ]
+      ],
+      "comment": "e.g.: Sneaker Marketplace"
+    }
+  },
+  "Display": {
+    "value": "56px",
+    "type": "fontSizes",
+    "filePath": "style-dictionary/global-rebrand.json",
+    "isSource": true,
+    "original": {
+      "value": 56,
+      "type": "fontSizes"
     },
+    "name": "Display",
+    "attributes": {
+      "category": "Display"
+    },
+    "path": [
+      "Display"
+    ]
+  },
+  "textDecoration": {
     "underline": {
       "value": "underline",
       "type": "textDecoration",
@@ -3055,904 +1687,25 @@ module.exports = {
         "textDecoration",
         "underline"
       ]
-    }
-  },
-  "breakpoints": {
-    "xl": {
-      "value": "1366px",
-      "type": "sizing",
-      "description": ">=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 1366,
-        "type": "sizing",
-        "description": ">=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)"
-      },
-      "name": "BreakpointsXl",
-      "attributes": {
-        "0": ">",
-        "1": "=",
-        "2": "1",
-        "3": "0",
-        "4": "8",
-        "5": "0",
-        "6": "p",
-        "7": "x",
-        "8": ":",
-        "9": " ",
-        "10": "E",
-        "11": "x",
-        "12": "t",
-        "13": "r",
-        "14": "a",
-        "15": " ",
-        "16": "l",
-        "17": "a",
-        "18": "r",
-        "19": "g",
-        "20": "e",
-        "21": " ",
-        "22": "a",
-        "23": "n",
-        "24": "d",
-        "25": " ",
-        "26": "l",
-        "27": "a",
-        "28": "r",
-        "29": "g",
-        "30": "e",
-        "31": " ",
-        "32": "d",
-        "33": "e",
-        "34": "s",
-        "35": "k",
-        "36": "t",
-        "37": "o",
-        "38": "p",
-        "39": " ",
-        "40": "s",
-        "41": "c",
-        "42": "r",
-        "43": "e",
-        "44": "e",
-        "45": "n",
-        "46": " ",
-        "47": "s",
-        "48": "i",
-        "49": "z",
-        "50": "e",
-        "51": "s",
-        "52": " ",
-        "53": "(",
-        "54": "M",
-        "55": "o",
-        "56": "c",
-        "57": "k",
-        "58": "u",
-        "59": "p",
-        "60": "s",
-        "61": " ",
-        "62": "o",
-        "63": "n",
-        "64": " ",
-        "65": "1",
-        "66": "4",
-        "67": "4",
-        "68": "0",
-        "69": "p",
-        "70": "x",
-        "71": ")",
-        "category": "breakpoints",
-        "type": "xl"
-      },
-      "path": [
-        "breakpoints",
-        "xl"
-      ],
-      "comment": ">=1080px: Extra large and large desktop screen sizes (Mockups on 1440px)"
-    },
-    "md": {
-      "value": "1024px",
-      "type": "sizing",
-      "description": ">=1024: Small desktop and tablet landscape",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 1024,
-        "type": "sizing",
-        "description": ">=1024: Small desktop and tablet landscape"
-      },
-      "name": "BreakpointsMd",
-      "attributes": {
-        "0": ">",
-        "1": "=",
-        "2": "1",
-        "3": "0",
-        "4": "2",
-        "5": "4",
-        "6": ":",
-        "7": " ",
-        "8": "S",
-        "9": "m",
-        "10": "a",
-        "11": "l",
-        "12": "l",
-        "13": " ",
-        "14": "d",
-        "15": "e",
-        "16": "s",
-        "17": "k",
-        "18": "t",
-        "19": "o",
-        "20": "p",
-        "21": " ",
-        "22": "a",
-        "23": "n",
-        "24": "d",
-        "25": " ",
-        "26": "t",
-        "27": "a",
-        "28": "b",
-        "29": "l",
-        "30": "e",
-        "31": "t",
-        "32": " ",
-        "33": "l",
-        "34": "a",
-        "35": "n",
-        "36": "d",
-        "37": "s",
-        "38": "c",
-        "39": "a",
-        "40": "p",
-        "41": "e",
-        "category": "breakpoints",
-        "type": "md"
-      },
-      "path": [
-        "breakpoints",
-        "md"
-      ],
-      "comment": ">=1024: Small desktop and tablet landscape"
-    },
-    "ms": {
-      "value": "768px",
-      "type": "sizing",
-      "description": ">=768px: tablet portrait",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 768,
-        "type": "sizing",
-        "description": ">=768px: tablet portrait"
-      },
-      "name": "BreakpointsMs",
-      "attributes": {
-        "0": ">",
-        "1": "=",
-        "2": "7",
-        "3": "6",
-        "4": "8",
-        "5": "p",
-        "6": "x",
-        "7": ":",
-        "8": " ",
-        "9": "t",
-        "10": "a",
-        "11": "b",
-        "12": "l",
-        "13": "e",
-        "14": "t",
-        "15": " ",
-        "16": "p",
-        "17": "o",
-        "18": "r",
-        "19": "t",
-        "20": "r",
-        "21": "a",
-        "22": "i",
-        "23": "t",
-        "category": "breakpoints",
-        "type": "ms"
-      },
-      "path": [
-        "breakpoints",
-        "ms"
-      ],
-      "comment": ">=768px: tablet portrait"
-    },
-    "sm": {
-      "value": "375px",
-      "type": "sizing",
-      "description": "Mobile portrait",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 375,
-        "type": "sizing",
-        "description": "Mobile portrait"
-      },
-      "name": "BreakpointsSm",
-      "attributes": {
-        "0": "M",
-        "1": "o",
-        "2": "b",
-        "3": "i",
-        "4": "l",
-        "5": "e",
-        "6": " ",
-        "7": "p",
-        "8": "o",
-        "9": "r",
-        "10": "t",
-        "11": "r",
-        "12": "a",
-        "13": "i",
-        "14": "t",
-        "category": "breakpoints",
-        "type": "sm"
-      },
-      "path": [
-        "breakpoints",
-        "sm"
-      ],
-      "comment": "Mobile portrait"
-    }
-  },
-  "borderRadius": {
-    "S": {
-      "value": "2px",
-      "type": "borderRadius",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": "2px",
-        "type": "borderRadius"
-      },
-      "name": "BorderRadiusS",
-      "attributes": {
-        "category": "borderRadius",
-        "type": "S"
-      },
-      "path": [
-        "borderRadius",
-        "S"
-      ]
     },
     "none": {
-      "value": "0px",
-      "type": "borderRadius",
+      "value": "none",
+      "type": "textDecoration",
       "filePath": "style-dictionary/global-rebrand.json",
       "isSource": true,
       "original": {
-        "value": "0px",
-        "type": "borderRadius"
+        "value": "none",
+        "type": "textDecoration"
       },
-      "name": "BorderRadiusNone",
+      "name": "TextDecorationNone",
       "attributes": {
-        "category": "borderRadius",
+        "category": "textDecoration",
         "type": "none"
       },
       "path": [
-        "borderRadius",
+        "textDecoration",
         "none"
       ]
-    }
-  },
-  "space": {
-    "0": {
-      "value": "4px",
-      "type": "spacing",
-      "description": "4px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 4,
-        "type": "spacing",
-        "description": "4px"
-      },
-      "name": "Space0",
-      "attributes": {
-        "0": "4",
-        "1": "p",
-        "2": "x",
-        "category": "space",
-        "type": "0"
-      },
-      "path": [
-        "space",
-        "0"
-      ],
-      "comment": "4px"
-    },
-    "2": {
-      "value": "16px",
-      "type": "spacing",
-      "description": "16px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 16,
-        "type": "spacing",
-        "description": "16px"
-      },
-      "name": "Space2",
-      "attributes": {
-        "0": "1",
-        "1": "6",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "2"
-      },
-      "path": [
-        "space",
-        "2"
-      ],
-      "comment": "16px"
-    },
-    "3": {
-      "value": "24px",
-      "type": "spacing",
-      "description": "24px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 24,
-        "type": "spacing",
-        "description": "24px"
-      },
-      "name": "Space3",
-      "attributes": {
-        "0": "2",
-        "1": "4",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "3"
-      },
-      "path": [
-        "space",
-        "3"
-      ],
-      "comment": "24px"
-    },
-    "4": {
-      "value": "32px",
-      "type": "spacing",
-      "description": "32px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 32,
-        "type": "spacing",
-        "description": "32px"
-      },
-      "name": "Space4",
-      "attributes": {
-        "0": "3",
-        "1": "2",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "4"
-      },
-      "path": [
-        "space",
-        "4"
-      ],
-      "comment": "32px"
-    },
-    "5": {
-      "value": "40px",
-      "type": "spacing",
-      "description": "40px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 40,
-        "type": "spacing",
-        "description": "40px"
-      },
-      "name": "Space5",
-      "attributes": {
-        "0": "4",
-        "1": "0",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "5"
-      },
-      "path": [
-        "space",
-        "5"
-      ],
-      "comment": "40px"
-    },
-    "6": {
-      "value": "48px",
-      "type": "spacing",
-      "description": "48px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 48,
-        "type": "spacing",
-        "description": "48px"
-      },
-      "name": "Space6",
-      "attributes": {
-        "0": "4",
-        "1": "8",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "6"
-      },
-      "path": [
-        "space",
-        "6"
-      ],
-      "comment": "48px"
-    },
-    "7": {
-      "value": "56px",
-      "type": "spacing",
-      "description": "56px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 56,
-        "type": "spacing",
-        "description": "56px"
-      },
-      "name": "Space7",
-      "attributes": {
-        "0": "5",
-        "1": "6",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "7"
-      },
-      "path": [
-        "space",
-        "7"
-      ],
-      "comment": "56px"
-    },
-    "8": {
-      "value": "64px",
-      "type": "spacing",
-      "description": "64px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 64,
-        "type": "spacing",
-        "description": "64px"
-      },
-      "name": "Space8",
-      "attributes": {
-        "0": "6",
-        "1": "4",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "8"
-      },
-      "path": [
-        "space",
-        "8"
-      ],
-      "comment": "64px"
-    },
-    "9": {
-      "value": "72px",
-      "type": "spacing",
-      "description": "72px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 72,
-        "type": "spacing",
-        "description": "72px"
-      },
-      "name": "Space9",
-      "attributes": {
-        "0": "7",
-        "1": "2",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "9"
-      },
-      "path": [
-        "space",
-        "9"
-      ],
-      "comment": "72px"
-    },
-    "10": {
-      "value": "80px",
-      "type": "spacing",
-      "description": "80px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 80,
-        "type": "spacing",
-        "description": "80px"
-      },
-      "name": "Space10",
-      "attributes": {
-        "0": "8",
-        "1": "0",
-        "2": "p",
-        "3": "x",
-        "category": "space",
-        "type": "10"
-      },
-      "path": [
-        "space",
-        "10"
-      ],
-      "comment": "80px"
-    },
-    "base": {
-      "value": "8px",
-      "type": "spacing",
-      "description": "8px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 8,
-        "type": "spacing",
-        "description": "8px"
-      },
-      "name": "SpaceBase",
-      "attributes": {
-        "0": "8",
-        "1": "p",
-        "2": "x",
-        "category": "space",
-        "type": "base"
-      },
-      "path": [
-        "space",
-        "base"
-      ],
-      "comment": "8px"
-    }
-  },
-  "borderWidth": {
-    "1": {
-      "value": "1px",
-      "type": "borderWidth",
-      "description": "1px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "1px"
-      },
-      "name": "BorderWidth1",
-      "attributes": {
-        "0": "1",
-        "1": "p",
-        "2": "x",
-        "category": "borderWidth",
-        "type": "1"
-      },
-      "path": [
-        "borderWidth",
-        "1"
-      ],
-      "comment": "1px"
-    },
-    "2": {
-      "value": "2px",
-      "type": "borderWidth",
-      "description": "2px",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "2px"
-      },
-      "name": "BorderWidth2",
-      "attributes": {
-        "0": "2",
-        "1": "p",
-        "2": "x",
-        "category": "borderWidth",
-        "type": "2"
-      },
-      "path": [
-        "borderWidth",
-        "2"
-      ],
-      "comment": "2px"
-    }
-  },
-  "opacity": {
-    "20": {
-      "value": 0.2,
-      "type": "opacity",
-      "description": "20%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.2,
-        "type": "opacity",
-        "description": "20%"
-      },
-      "name": "Opacity20",
-      "attributes": {
-        "0": "2",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "20"
-      },
-      "path": [
-        "opacity",
-        "20"
-      ],
-      "comment": "20%"
-    },
-    "30": {
-      "value": 0.3,
-      "type": "opacity",
-      "description": "30%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.3,
-        "type": "opacity",
-        "description": "30%"
-      },
-      "name": "Opacity30",
-      "attributes": {
-        "0": "3",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "30"
-      },
-      "path": [
-        "opacity",
-        "30"
-      ],
-      "comment": "30%"
-    },
-    "40": {
-      "value": 0.4,
-      "type": "opacity",
-      "description": "40%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.4,
-        "type": "opacity",
-        "description": "40%"
-      },
-      "name": "Opacity40",
-      "attributes": {
-        "0": "4",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "40"
-      },
-      "path": [
-        "opacity",
-        "40"
-      ],
-      "comment": "40%"
-    },
-    "50": {
-      "value": 0.5,
-      "type": "opacity",
-      "description": "50%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.5,
-        "type": "opacity",
-        "description": "50%"
-      },
-      "name": "Opacity50",
-      "attributes": {
-        "0": "5",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "50"
-      },
-      "path": [
-        "opacity",
-        "50"
-      ],
-      "comment": "50%"
-    },
-    "60": {
-      "value": 0.6,
-      "type": "opacity",
-      "description": "60%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.6,
-        "type": "opacity",
-        "description": "60%"
-      },
-      "name": "Opacity60",
-      "attributes": {
-        "0": "6",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "60"
-      },
-      "path": [
-        "opacity",
-        "60"
-      ],
-      "comment": "60%"
-    },
-    "70": {
-      "value": 0.7,
-      "type": "opacity",
-      "description": "70%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.7,
-        "type": "opacity",
-        "description": "70%"
-      },
-      "name": "Opacity70",
-      "attributes": {
-        "0": "7",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "70"
-      },
-      "path": [
-        "opacity",
-        "70"
-      ],
-      "comment": "70%"
-    },
-    "80": {
-      "value": 0.8,
-      "type": "opacity",
-      "description": "80%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.8,
-        "type": "opacity",
-        "description": "80%"
-      },
-      "name": "Opacity80",
-      "attributes": {
-        "0": "8",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "80"
-      },
-      "path": [
-        "opacity",
-        "80"
-      ],
-      "comment": "80%"
-    },
-    "85": {
-      "value": 0.85,
-      "type": "opacity",
-      "description": "85%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.85,
-        "type": "opacity",
-        "description": "85%"
-      },
-      "name": "Opacity85",
-      "attributes": {
-        "0": "8",
-        "1": "5",
-        "2": "%",
-        "category": "opacity",
-        "type": "85"
-      },
-      "path": [
-        "opacity",
-        "85"
-      ],
-      "comment": "85%"
-    },
-    "90": {
-      "value": 0.9,
-      "type": "opacity",
-      "description": "90%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.9,
-        "type": "opacity",
-        "description": "90%"
-      },
-      "name": "Opacity90",
-      "attributes": {
-        "0": "9",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "90"
-      },
-      "path": [
-        "opacity",
-        "90"
-      ],
-      "comment": "90%"
-    },
-    "95": {
-      "value": 0.95,
-      "type": "opacity",
-      "description": "95%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.95,
-        "type": "opacity",
-        "description": "95%"
-      },
-      "name": "Opacity95",
-      "attributes": {
-        "0": "9",
-        "1": "5",
-        "2": "%",
-        "category": "opacity",
-        "type": "95"
-      },
-      "path": [
-        "opacity",
-        "95"
-      ],
-      "comment": "95%"
-    },
-    "base": {
-      "value": 0.1,
-      "type": "opacity",
-      "description": "10%",
-      "filePath": "style-dictionary/global-rebrand.json",
-      "isSource": true,
-      "original": {
-        "value": 0.1,
-        "type": "opacity",
-        "description": "10%"
-      },
-      "name": "OpacityBase",
-      "attributes": {
-        "0": "1",
-        "1": "0",
-        "2": "%",
-        "category": "opacity",
-        "type": "base"
-      },
-      "path": [
-        "opacity",
-        "base"
-      ],
-      "comment": "10%"
     }
   }
 };
