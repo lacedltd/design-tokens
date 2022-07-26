@@ -1747,6 +1747,1293 @@ module.exports = {
         "typography",
         "display"
       ]
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "Segoe UI",
+        "fontWeight": "Bold",
+        "lineHeight": "120%",
+        "fontSize": 44,
+        "letterSpacing": 0,
+        "paragraphSpacing": 24,
+        "textDecoration": "none",
+        "textCase": "capitalize"
+      },
+      "type": "typography",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 44,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography"
+      },
+      "name": "TypographyH1",
+      "attributes": {
+        "category": "typography",
+        "type": "h1"
+      },
+      "path": [
+        "typography",
+        "h1"
+      ]
+    },
+    "h2": {
+      "product": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 32,
+          "letterSpacing": "20%",
+          "paragraphSpacing": 24,
+          "textCase": "Uppercase"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 32,
+            "letterSpacing": "20%",
+            "paragraphSpacing": 24,
+            "textCase": "Uppercase"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH2Product",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "product"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "product"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 32,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 32,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH2Bold",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 32,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 32,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH2Regular",
+        "attributes": {
+          "category": "typography",
+          "type": "h2",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "h2",
+          "regular"
+        ]
+      }
+    },
+    "h3": {
+      "product": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 24,
+          "letterSpacing": "20%",
+          "paragraphSpacing": 24,
+          "textCase": "Uppercase"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 24,
+            "letterSpacing": "20%",
+            "paragraphSpacing": 24,
+            "textCase": "Uppercase"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH3Product",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "product"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "product"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 24,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 24,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH3Bold",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 24,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 24,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH3Regular",
+        "attributes": {
+          "category": "typography",
+          "type": "h3",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "h3",
+          "regular"
+        ]
+      }
+    },
+    "h4": {
+      "product": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 20,
+          "letterSpacing": "20%",
+          "paragraphSpacing": 24,
+          "textCase": "Uppercase",
+          "textDecoration": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 20,
+            "letterSpacing": "20%",
+            "paragraphSpacing": 24,
+            "textCase": "Uppercase",
+            "textDecoration": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH4Product",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "product"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "product"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 20,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 20,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH4Bold",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 20,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 20,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH4Regular",
+        "attributes": {
+          "category": "typography",
+          "type": "h4",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "h4",
+          "regular"
+        ]
+      }
+    },
+    "h5": {
+      "productBold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 16,
+          "letterSpacing": "20%",
+          "paragraphSpacing": 24,
+          "textCase": "Uppercase",
+          "textDecoration": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 16,
+            "letterSpacing": "20%",
+            "paragraphSpacing": 24,
+            "textCase": "Uppercase",
+            "textDecoration": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH5ProductBold",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "productBold"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "productBold"
+        ]
+      },
+      "productRegular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 16,
+          "letterSpacing": "20%",
+          "paragraphSpacing": 24,
+          "textCase": "Uppercase",
+          "textDecoration": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 16,
+            "letterSpacing": "20%",
+            "paragraphSpacing": 24,
+            "textCase": "Uppercase",
+            "textDecoration": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH5ProductRegular",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "productRegular"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "productRegular"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH5Bold",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH5Regular",
+        "attributes": {
+          "category": "typography",
+          "type": "h5",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "h5",
+          "regular"
+        ]
+      }
+    },
+    "h6": {
+      "bold": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Bold",
+          "lineHeight": "120%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "120%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH6Bold",
+        "attributes": {
+          "category": "typography",
+          "type": "h6",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "h6",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 24,
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "paragraphSpacing": 24,
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyH6Regular",
+        "attributes": {
+          "category": "typography",
+          "type": "h6",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "h6",
+          "regular"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Regular",
+          "lineHeight": "150%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Regular",
+            "lineHeight": "150%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodyRegular",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "body",
+          "regular"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Bold",
+          "lineHeight": "150%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodyBold",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "body",
+          "bold"
+        ]
+      },
+      "underline": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Bold",
+          "lineHeight": "150%",
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "underline",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "underline",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodyUnderline",
+        "attributes": {
+          "category": "typography",
+          "type": "body",
+          "item": "underline"
+        },
+        "path": [
+          "typography",
+          "body",
+          "underline"
+        ]
+      }
+    },
+    "body-s": {
+      "regular": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Regular",
+          "lineHeight": "150%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Regular",
+            "lineHeight": "150%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodySRegular",
+        "attributes": {
+          "category": "typography",
+          "type": "body-s",
+          "item": "regular"
+        },
+        "path": [
+          "typography",
+          "body-s",
+          "regular"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Bold",
+          "lineHeight": "150%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodySBold",
+        "attributes": {
+          "category": "typography",
+          "type": "body-s",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "body-s",
+          "bold"
+        ]
+      },
+      "underline": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontWeight": "Bold",
+          "lineHeight": "150%",
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "paragraphSpacing": 16,
+          "textDecoration": "underline",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "underline",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyBodySUnderline",
+        "attributes": {
+          "category": "typography",
+          "type": "body-s",
+          "item": "underline"
+        },
+        "path": [
+          "typography",
+          "body-s",
+          "underline"
+        ]
+      }
+    },
+    "label": {
+      "body": {
+        "regular": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Regular",
+            "lineHeight": "150%",
+            "fontSize": 12,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 12,
+              "letterSpacing": 0,
+              "paragraphSpacing": 16,
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyLabelBodyRegular",
+          "attributes": {
+            "category": "typography",
+            "type": "label",
+            "item": "body",
+            "subitem": "regular"
+          },
+          "path": [
+            "typography",
+            "label",
+            "body",
+            "regular"
+          ]
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 12,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 12,
+              "letterSpacing": 0,
+              "paragraphSpacing": 16,
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyLabelBodyBold",
+          "attributes": {
+            "category": "typography",
+            "type": "label",
+            "item": "body",
+            "subitem": "bold"
+          },
+          "path": [
+            "typography",
+            "label",
+            "body",
+            "bold"
+          ]
+        },
+        "underline": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 12,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "underline",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 12,
+              "letterSpacing": 0,
+              "paragraphSpacing": 16,
+              "textDecoration": "underline",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyLabelBodyUnderline",
+          "attributes": {
+            "category": "typography",
+            "type": "label",
+            "item": "body",
+            "subitem": "underline"
+          },
+          "path": [
+            "typography",
+            "label",
+            "body",
+            "underline"
+          ]
+        }
+      },
+      "header": {
+        "regular": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "150%",
+            "fontSize": 12,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "Uppercase"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Segoe UI",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": 12,
+              "letterSpacing": 0,
+              "paragraphSpacing": 16,
+              "textDecoration": "none",
+              "textCase": "Uppercase"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyLabelHeaderRegular",
+          "attributes": {
+            "category": "typography",
+            "type": "label",
+            "item": "header",
+            "subitem": "regular"
+          },
+          "path": [
+            "typography",
+            "label",
+            "header",
+            "regular"
+          ]
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 12,
+            "letterSpacing": 0,
+            "paragraphSpacing": 16,
+            "textDecoration": "none",
+            "textCase": "Uppercase"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Segoe UI",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 12,
+              "letterSpacing": 0,
+              "paragraphSpacing": 16,
+              "textDecoration": "none",
+              "textCase": "Uppercase"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyLabelHeaderBold",
+          "attributes": {
+            "category": "typography",
+            "type": "label",
+            "item": "header",
+            "subitem": "bold"
+          },
+          "path": [
+            "typography",
+            "label",
+            "header",
+            "bold"
+          ]
+        }
+      }
+    },
+    "button": {
+      "m": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 16,
+          "letterSpacing": "10%",
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 16,
+            "letterSpacing": "10%",
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyButtonM",
+        "attributes": {
+          "category": "typography",
+          "type": "button",
+          "item": "m"
+        },
+        "path": [
+          "typography",
+          "button",
+          "m"
+        ]
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Segoe UI",
+          "fontWeight": "Regular",
+          "lineHeight": "120%",
+          "fontSize": 14,
+          "letterSpacing": "10%",
+          "textDecoration": "none",
+          "textCase": "capitalize"
+        },
+        "type": "typography",
+        "filePath": "style-dictionary/global-rebrand.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "Segoe UI",
+            "fontWeight": "Regular",
+            "lineHeight": "120%",
+            "fontSize": 14,
+            "letterSpacing": "10%",
+            "textDecoration": "none",
+            "textCase": "capitalize"
+          },
+          "type": "typography"
+        },
+        "name": "TypographyButtonS",
+        "attributes": {
+          "category": "typography",
+          "type": "button",
+          "item": "s"
+        },
+        "path": [
+          "typography",
+          "button",
+          "s"
+        ]
+      },
+      "underline": {
+        "m": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 16,
+            "letterSpacing": 0,
+            "textDecoration": "underline",
+            "textCase": "capitalize"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 16,
+              "letterSpacing": 0,
+              "textDecoration": "underline",
+              "textCase": "capitalize"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyButtonUnderlineM",
+          "attributes": {
+            "category": "typography",
+            "type": "button",
+            "item": "underline",
+            "subitem": "m"
+          },
+          "path": [
+            "typography",
+            "button",
+            "underline",
+            "m"
+          ]
+        },
+        "s": {
+          "value": {
+            "fontFamily": "Helvetica",
+            "fontWeight": "Bold",
+            "lineHeight": "150%",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "textDecoration": "underline",
+            "textCase": "capitalize"
+          },
+          "type": "typography",
+          "filePath": "style-dictionary/global-rebrand.json",
+          "isSource": true,
+          "original": {
+            "value": {
+              "fontFamily": "Helvetica",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": 14,
+              "letterSpacing": 0,
+              "textDecoration": "underline",
+              "textCase": "capitalize"
+            },
+            "type": "typography"
+          },
+          "name": "TypographyButtonUnderlineS",
+          "attributes": {
+            "category": "typography",
+            "type": "button",
+            "item": "underline",
+            "subitem": "s"
+          },
+          "path": [
+            "typography",
+            "button",
+            "underline",
+            "s"
+          ]
+        }
+      }
+    }
+  },
+  "boxShadow": {
+    "button": {
+      "value": "0px 2px 10px 0px #0a0a0a30",
+      "type": "boxShadow",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 0,
+          "y": 2,
+          "blur": 10,
+          "spread": 0,
+          "color": "#0a0a0a30",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowButton",
+      "attributes": {
+        "category": "boxShadow",
+        "type": "button"
+      },
+      "path": [
+        "boxShadow",
+        "button"
+      ]
+    },
+    "box": {
+      "value": "10px 10px 30px 0px #0a0a0a",
+      "type": "boxShadow",
+      "filePath": "style-dictionary/global-rebrand.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "x": 10,
+          "y": 10,
+          "blur": 30,
+          "spread": 0,
+          "color": "#0a0a0a",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "name": "BoxShadowBox",
+      "attributes": {
+        "category": "boxShadow",
+        "type": "box"
+      },
+      "path": [
+        "boxShadow",
+        "box"
+      ]
     }
   }
 };

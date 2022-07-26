@@ -16,9 +16,212 @@ interface RootObject {
   textCase: TextCase;
   textDecoration: TextDecoration;
   typography: Typography;
+  boxShadow: BoxShadow;
+}
+interface BoxShadow {
+  button: Button2;
+  box: Button2;
+}
+interface Button2 {
+  value: string;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original10;
+  name: string;
+  attributes: Attributes;
+  path: string[];
+}
+interface Original10 {
+  value: Value6;
+  type: string;
+}
+interface Value6 {
+  x: number;
+  y: number;
+  blur: number;
+  spread: number;
+  color: string;
+  type: string;
 }
 interface Typography {
   display: Display;
+  h1: Display;
+  h2: H2;
+  h3: H2;
+  h4: H4;
+  h5: H5;
+  h6: H6;
+  body: Body;
+  'body-s': Body;
+  label: Label;
+  button: Button;
+}
+interface Button {
+  m: M;
+  s: M;
+  underline: Underline;
+}
+interface Underline {
+  m: M2;
+  s: M2;
+}
+interface M2 {
+  value: Value5;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original9;
+  name: string;
+  attributes: Attributes13;
+  path: string[];
+}
+interface Original9 {
+  value: Value5;
+  type: string;
+}
+interface Value5 {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: number;
+  letterSpacing: number;
+  textDecoration: string;
+  textCase: string;
+}
+interface M {
+  value: Value4;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original8;
+  name: string;
+  attributes: Attributes3;
+  path: string[];
+}
+interface Original8 {
+  value: Value4;
+  type: string;
+}
+interface Value4 {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: number;
+  letterSpacing: string;
+  textDecoration: string;
+  textCase: string;
+}
+interface Label {
+  body: Body2;
+  header: Header;
+}
+interface Header {
+  regular: Regular;
+  bold: Regular;
+}
+interface Body2 {
+  regular: Regular;
+  bold: Regular;
+  underline: Regular;
+}
+interface Regular {
+  value: Value;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original5;
+  name: string;
+  attributes: Attributes13;
+  path: string[];
+}
+interface Attributes13 {
+  category: string;
+  type: string;
+  item: string;
+  subitem: string;
+}
+interface Body {
+  regular: Bold;
+  bold: Bold;
+  underline: Bold;
+}
+interface H6 {
+  bold: Bold;
+  regular: Bold;
+}
+interface H5 {
+  productBold: Product2;
+  productRegular: Product2;
+  bold: Bold;
+  regular: Bold;
+}
+interface H4 {
+  product: Product2;
+  bold: Bold;
+  regular: Bold;
+}
+interface Product2 {
+  value: Value3;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original7;
+  name: string;
+  attributes: Attributes3;
+  path: string[];
+}
+interface Original7 {
+  value: Value3;
+  type: string;
+}
+interface Value3 {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: number;
+  letterSpacing: string;
+  paragraphSpacing: number;
+  textCase: string;
+  textDecoration: string;
+}
+interface H2 {
+  product: Product;
+  bold: Bold;
+  regular: Bold;
+}
+interface Bold {
+  value: Value;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original5;
+  name: string;
+  attributes: Attributes3;
+  path: string[];
+}
+interface Product {
+  value: Value2;
+  type: string;
+  filePath: string;
+  isSource: boolean;
+  original: Original6;
+  name: string;
+  attributes: Attributes3;
+  path: string[];
+}
+interface Original6 {
+  value: Value2;
+  type: string;
+}
+interface Value2 {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: number;
+  letterSpacing: string;
+  paragraphSpacing: number;
+  textCase: string;
 }
 interface Display {
   value: Value;
